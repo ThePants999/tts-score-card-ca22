@@ -1,6 +1,23 @@
 {
 	"ver": "GT_2022_01",
 	"name": "Grand Tournament 2022",
+	"missions": [
+		{
+			"name": "11 - Recover The Relics",
+			"primary": "Take and Hold",
+			"mission": "[b]Progressive Objective[/b]\nAt the end of each battle round, each player scores 1 victory point for each enemy unit that was destroyed during that battle round (to a maximum of 3 victory points per player per battle round). A unit can, if it is destroyed and resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially count as having been destroyed several times for the purposes of this primary objective (assuming it is resurrected and subsequently destroyed several times over during the same battle round)."
+		},
+		{
+			"name": "33 - Secure Missing Artifacts",
+			"primary": "Take and Hold",
+			"mission": "[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 3 victory points if they control the Priority objective marker that is in their own territory."
+		},
+		{
+			"name": "Test mission",
+			"primary": "Domination",
+			"mission": "Ignore this, just testing Domination missions"
+		}
+	],
 	"factions": [
 		{
 			"name": "Generic",
@@ -74,7 +91,7 @@
 						},
 						{
 							"id": "GT21.01.03.03",
-							"name": "Retrieve Octarius Data",
+							"name": "Retrieve Nachmund Data",
 							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a tally of Retrieved Data points; add 1 to that tally each time a unit from your army successfully completes the following action during the battle. At the end of the battle, score 4 victory points if your Retrieved Data tally is 2, score 8 victory points if your tally is 3, or score 12 victory points if your tally is 4.",
 							"actions": [
 								{
