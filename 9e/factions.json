@@ -1,6 +1,7 @@
 {
 	"ver": "Factions_9e_01",
 	"name": "Faction Specific",
+	"missions": [],
 	"factions": [
 		{
 			"faction": "SPACE MARINES",
