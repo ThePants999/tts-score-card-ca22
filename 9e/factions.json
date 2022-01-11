@@ -644,6 +644,85 @@
 					]
 				}
 			]
+		},
+		{
+			"faction": "ADEPTUS CUSTODES",
+			"name": "Adeptus Custodes",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "EW.16.01.01",
+							"name": "Might Of Terra",
+							"description": "[i]Progressive Objective[/i]\nScore 4 victory points at the end of the battle round if one or more enemy units were destroyed this battle round and no [b]ADEPTUS CUSTODES[/b] or [b]ANATHEMA PSYKANA[/b] units from your army were destroyed this battle round."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "EW.16.02.01",
+							"name": "Stand Vigil",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of the battle round if you control more objective markers that are not within either player's deployment zone than your opponent does."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "EW.16.03.01",
+							"name": "Auric Mortalis",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle, you must select one unit from your opponent's army that has the [b]PRIMARCH[/b] or [b]SUPREME COMMANDER[/b] keyword to be marked for death. If no such unit exists, select one unit from your opponent's army with the highest points value to be marked for death. [b]AIRCRAFT[/b] units are ignored when selecting a unit to be marked for death.\n\nAt the end of the battle, calculate how many victory points (to a minimum of 0) you score for this objective as follows:\n\n- 5 victory points if the unit you selected to be marked for death was destroyed.\n- 5 victory points if the unit you selected to be marked for death was destroyed as the result of a melee attack made by an [b]ADEPTUS CUSTODES[/b] or [b]ANATHEMA PSYKANA[/b] unit from your army.\n- 5 victory points if both of the above are true and the unit you selected to be marked for death was destroyed more than 6\" away from your deployment zone.\n- -2 victory points for each unit from your army that the unit you selected to be marked for death destroyed."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "GENESTEALER CULTS",
+			"name": "Genestealer Cults",
+			"categories": [
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "EW.17.01.01",
+							"name": "Sabotage Location",
+							"description": "[i]Progressive Objective[/i]\nAfter choosing deployment zones, your opponent must place 2 critical location markers on the battlefield. Each of their critical location markers must be more than 9\" away from any battlefield edge and more than 9\" away from their other critical location marker. If both players must place these markers, the players alternate doing so, starting with the Defender.\n\nIf you select this objective, then units from your army can perform the following action.\n\nScore victory points each time a unit from your army completes the Sabotage Critical Location action:\n- 9 victory points if completed on battle round 2\n- 7 victory points if completed on battle round 3\n- 5 victory points if completed on battle round 4\n- 3 victory points if completed on battle round 5\n\nThis secondary objective cannot be scored in the first battle round.",
+							"actions": [
+								{
+									"id": "EW.17.01.01a",
+									"name": "Sabotage Critical Location (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]INFANTRY[/b] or [b]BIKER[/b] units from your army (excluding [b]CHARACTER[/b] units other than [b]REDUCTUS SABOTEUR[/b] units) can start to perform this action at the end of the Move Units step of your Movement phase. Each unit from your army that starts to perform this action must be within 3\" of the centre of a different one of your opponent's critical location markers, and no enemy units (excluding [b]AIRCRAFT[/b] units) can be within 3\" of the centre of that critical location marker. The action is completed at the end of your turn, provided the unit performing it is still within range of the same critical location marker. If this action is successfully completed, you have sabotaged that critical location; remove that critical location marker from the battlefield."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "EW.17.02.01",
+							"name": "Broodswarm",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 1 victory point for each of the following that applies (to a maximum of 4 victory points):\n- You have more models within your opponent's deployment zone than your opponent does.\n- You have more models within your deployment zone than your deployment does.\n- You have more models on the battlefield that are not within either player's deployment zon than your opponent does.\n- All three of the above bullet points apply."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "EW.17.03.01",
+							"name": "Ambush",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score victory points in the following ways:\n- Score 1 victory point if one or more enemy units were destroyed this turn while they had a crossfire marker.\n- Score 1 victory point if one or more enemy units were destroyed this turn by units from your army that were set up from ambush or from underground during this turn.\n- Score 1 victory point if one or more enemy units were destroyed this turn as a result of a ranged attack made by a model from your army, and that enemy unit was Exposed when it was selected as the target for that ranged attack. Note that enemy unit must have been Exposed as specified on page 89 of the codex, rather than by any other means (e.g. the Priority Target ability)."
+						}
+					]
+				}
+			]
 		}
 	]
 }
