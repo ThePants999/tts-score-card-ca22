@@ -1,6 +1,6 @@
 {
 	"ver": "GT_2022_01",
-	"name": "Grand Tournament 2022",
+	"name": "GT: Nachmund",
 	"missions": [
 		{
 			"name": "11 - Recover The Relics",
@@ -28,7 +28,7 @@
 						{
 							"id": "GT21.01.01.01",
 							"name": "Engage on All Fronts",
-							"description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn if you have one or more units from your army wholly within three different table quarters, and those units are all more than 6” from the centre of the battlefield. Score 3 victory points instead if you have one or more units from your army wholly within each table quarter, and those units are all more than 6” from the centre of the battlefield."
+							"description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn if you have one or more qualifying units (see below) from your army wholly within three different table quarters, and those units are all more than 6” from the centre of the battlefield. Score 3 victory points instead if you have one or more qualifying units from your army wholly within each table quarter, and those units are all more than 6” from the centre of the battlefield. A qualifying unit is one that contains 3 or more models, or one that contains 1 or more [b]VEHICLE[/b] or [b]MONSTER[/b] models."
 						},
 						{
 							"id": "GT21.01.01.02",
@@ -48,7 +48,7 @@
 						{
 							"id": "GT21.01.02.01",
 							"name": "No Prisoners",
-							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a tally of kill points. Each time an enemy model is destroyed, unless that model is a [b]VEHICLE[/b], [b]MONSTER[/b] or [b]CHARACTER[/b], add a number of marks to this tally equal to the Wounds characteristic of the destroyed model. A model can, if it is resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially have marks added to this tally several times (assuming it is resurrected and subsequently destroyed several times over). At the end of the battle, divide your kill points tally by 10 and round down - the result is the number of victory points you score."
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a Kill Points tally. Each time an enemy model is destroyed, unless that model is a [b]VEHICLE[/b], [b]MONSTER[/b] or [b]CHARACTER[/b], add a number of marks to this tally equal to the Wounds characteristic of the destroyed model. A model can, if it is resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially have marks added to this tally several times (assuming it is resurrected and subsequently destroyed several times over). At the end of the battle, divide your Kill Points tally by 10 and round down - the result is the number of victory points you score. In addition, if your Kill Points tally is between 50 and 99, you score 1 additional victory point, and if your Kill Points tally is 100 or more, you score 2 additional victory points."
 						},
 						{
 							"id": "GT21.01.02.02",
@@ -85,19 +85,19 @@
 								{
 									"id": "GT21.01.03.02a",
 									"name": "Investigate Signal (Action)",
-									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] unit (excluding [b]CHARACTER[/b] units) from your army can start to perform this action at the end of your Movement phase if it is wholly within 6” of the centre of the battlefield and no enemy units (excluding [b]AIRCRAFT[/b] units) are wholly within 6” of the centre of the battlefield. The action is completed at the end of your turn provided the unit attempting it is still wholly within 6” of the centre of the battlefield and no enemy units (excluding [b]AIRCRAFT[/b] units) are wholly within 6” of the centre of the battlefield."
+									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] unit from your army that contains 3 or more models can start to perform this action at the end of your Movement phase if it is wholly within 6” of the centre of the battlefield. The action is completed at the end of your turn provided the unit attempting it is still wholly within 6” of the centre of the battlefield and no enemy units (excluding [b]AIRCRAFT[/b] units) are wholly within 6” of the centre of the battlefield."
 								}
 							]
 						},
 						{
 							"id": "GT21.01.03.03",
 							"name": "Retrieve Nachmund Data",
-							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a tally of Retrieved Data points; add 1 to that tally each time a unit from your army successfully completes the following action during the battle. At the end of the battle, score 4 victory points if your Retrieved Data tally is 2, score 8 victory points if your tally is 3, or score 12 victory points if your tally is 4.",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep Retrieved Data tally. In addition, units in your army can perform the following action.\n\nAt the end of the battle, score 4 victory points if your Retrieved Data tally is 2, score 8 victory points if your tally is 3, or score 12 victory points if your tally is 4.",
 							"actions": [
 								{
 									"id": "GT21.01.03.03a",
 									"name": "Retrieve Data (Action)",
-									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] unit (excluding [b]CHARACTER[/b] units) from your army can start to perform this action at the end of your Movement phase if it is wholly within a table quarter that has not had a servo-skull retrieved by your army (see below) and it is more than 6” away from any other table quarter. This action is completed at the end of your turn provided the unit attempting it is still within the same table quarter. If this action is successfully completed, the table quarter is said to have had a servo-skull retrieved by your army."
+									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] or [b]BIKER[/b] unit can start to perform this action at the end of your Movement phase if it is wholly within a table quarter that has not had a servo-skull retrieved by your army (see below) and it is more than 6” away from any other table quarter. This action is completed at the end of your turn provided the unit attempting it is still within the same table quarter. If this action is successfully completed, roll one D6, subtracting 1 from the result if the unit that completed the action has the Troops battlefield role; if the result is less than or equal to the number of models currently in that unit, that table quarter is said to have had a servo-skull retrieved by your army and you add 1 to your Retrieved Data tally."
 								}
 							]
 						},
@@ -109,7 +109,7 @@
 								{
 									"id": "GT21.01.03.04a",
 									"name": "Deploy Teleport Homer (Action)",
-									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] or [b]BIKER[/b] unit from your army can start to perform this action at the end of your Movement phase if it is wholly within 12” of your opponent's deployment zone. The action is completed at the end of your next Command phase provided the unit attempting it is still wholly within 12” of your opponent's deployment zone."
+									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] or [b]BIKER[/b] unit from your army can start to perform this action at the end of your Movement phase if it is wholly within 12” of your opponent's deployment zone. If the unit attempting this action has the Troops battlefield role, the action is completed at the end of your turn; otherwise the action is completed at the end of your next Command phase. In either case, the action is only completed if the unit attempting it is still wholly within 12” of your opponent's deployment zone."
 								}
 							]
 						}
@@ -131,7 +131,7 @@
 						{
 							"id": "GT21.01.04.03",
 							"name": "Bring it Down",
-							"description": "[i]End Game Objective[/i]\nScore 1 victory point at the end of the battle for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model with a Wounds characteristic of 10 or less that is destroyed, 2 victory points for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model with a Wounds characteristic of between 11-19 that is destroyed, and 3 victory points for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model with a Wounds characteristic of 20 or more that is destroyed."
+							"description": "[i]End Game Objective[/i]\nScore 1 victory point at the end of the battle for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model with a Wounds characteristic of 9 or less that is destroyed, 2 victory points for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model with a Wounds characteristic of between 10-14 that is destroyed, and 3 victory points for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model with a Wounds characteristic of 15 or more that is destroyed."
 						}
 					]
 				},
@@ -175,7 +175,7 @@
 								{
 									"id": "GT21.01.05.04a",
 									"name": "Psychic Interrogation (Psychic Action)",
-									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 24” of any visible enemy [b]CHARACTER[/b] models."
+									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 24” of any enemy [b]CHARACTER[/b] models."
 								}
 							]
 						}

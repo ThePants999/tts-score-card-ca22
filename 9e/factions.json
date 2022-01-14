@@ -724,6 +724,102 @@
 					]
 				}
 			]
+		},
+		{
+			"faction": "IMPERIAL KNIGHTS",
+			"name": "Imperial Knights",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "EW.18.01.01",
+							"name": "Yield No Ground",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, at the end of your turn, you score victory points as follows (for a maximum of 5 victory points):\n- Score 2 victory points if you control half or more of the total number of objective markers on the battlefield, and one or more [b]IMPERIAL KNIGHTS[/b] models from your army are within range of each of those objective markers.\n- Score 2 victory points if no enemy units (excluding [b]AIRCRAFT[/b] units) are wholly within your deployment zone.\n- Score 1 victory point so long as no [b]IMPERIAL KNIGHTS[/b] models from your army ended that turn closer to your battlefield edge than they started the turn, and no [b]IMPERIAL KNIGHTS[/b] units from your army Fell Back during that turn.\n\nThis secondary objective cannot be scored in the first battle round."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "ASTRA MILITARUM",
+			"name": "Astra Militarum",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "EW.19.01.01",
+							"name": "For The Emperor!",
+							"description": "[i]Progressive Objective[/i]\nScore 1 victory point at the end of the battle round for each enemy unit that was destroyed during that battle round by an [b]ASTRA MILITARUM[/b] unit from your army (to a maximum of 3 victory points per battle round)."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "CHAOS KNIGHTS",
+			"name": "Chaos Knights",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "EW.20.01.01",
+							"name": "Path of Destruction",
+							"description": "[i]Progressive Objective[/i]\nScore 1 victory point at the end of the battle round for each of the following conditions that were satisfied during that battle round (for a maximum of 3 victory points):\n- One or more enemy units were destroyed by a [b]CHAOS KNIGHTS[/b] model from your army while that [b]CHAOS KNIGHTS[/b] model was wholly within your deployment zone.\n- One or more enemy units were destroyed by a [b]CHAOS KNIGHTS[/b] model from your army while that [b]CHAOS KNIGHTS[/b] model was more than 3\" away from either player's deployment zone.\n- One or more enemy units were destroyed by a [b]CHAOS KNIGHTS[/b] model from your army while that [b]CHAOS KNIGHTS[/b] model was wholly within your opponent's deployment zone."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "CHAOS DAEMONS",
+			"name": "Chaos Daemons",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "EW.21.01.01",
+							"name": "Malefic Terror",
+							"description": "[i]Progressive Objective[/i]\n- Each time an enemy model flees the battlefield, score 1 victory point.\n\n- Each time an enemy unit is destroyed by an attack made by a [b]CHAOS DAEMONS[/b] unit from your army, before removing the last model from the battlefield, roll 2D6: if the result equals or exceeds the current Leadership characteristic of that enemy model, score 1 victory point.\n\nYou cannot score more than 4 victory points from this secondary objective per turn."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "CHAOS SPACE MARINES",
+			"name": "Chaos Space Marines",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "EW.22.01.01",
+							"name": "The Long War",
+							"description": "[i]Progressive Objective[/i]\n- At the end of your turn, you score 1 victory point for each enemy unit that was within range of an objective marker at the start of that turn that was destroyed by a [b]HERETIC ASTARTES[/b] unit from your army during that turn.\n\n- At the end of your turn, you score 2 victory points if you control one or more objective markers that were controlled by your opponent at the start of that turn, and a [b]HERETIC ASTARTES[/b] unit from your army is within range of one or more of those objective markers.\n\nYou cannot score more than 3 victory points from this secondary objective per turn."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "TYRANIDS",
+			"name": "Tyranids",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "EW.23.01.01",
+							"name": "Synaptic Insight",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, keep a Synaptic Kill tally. Reset this tally to 0 at the start of each battle round. Each time an enemy model (excluding Dedicated Transport models) is destroyed by a [b]SYNAPSE[/b] model from your army: if that enemy had a Wounds characteristic between 3 and 5, add 1 to your Synaptic Kill tally; if it had a Wounds characteristic between 6 and 9, add 2 to this tally; if it had a Wounds characteristic of 10 or more, add 3 to this tally.\n\nScore 3 victory points at the end of the battle round if your Synaptic Kill tally is 4 or more. You cannot score more than 12 victory points from this objective."
+						}
+					]
+				}
+			]
 		}
 	]
 }
