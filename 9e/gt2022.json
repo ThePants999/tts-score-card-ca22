@@ -49,5 +49,169 @@
 		}
 	],
 	"factions": [
+		{
+			"name": "Generic",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT21.01.01.01",
+							"name": "Engage on All Fronts",
+							"description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn if you have one or more qualifying units (see below) from your army wholly within three different table quarters, and those units are all more than 6” from the centre of the battlefield. Score 3 victory points instead if you have one or more qualifying units from your army wholly within each table quarter, and those units are all more than 6” from the centre of the battlefield. A qualifying unit is one that contains 3 or more models, or one that contains 1 or more [b]VEHICLE[/b] or [b]MONSTER[/b] models."
+						},
+						{
+							"id": "GT21.01.01.02",
+							"name": "Behind Enemy Lines",
+							"description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn if one unit from your army (excluding [b]AIRCRAFT[/b] units) is wholly within your opponent’s deployment zone. Score 4 victory points at the end of your turn instead if two or more units from your army (excluding [b]AIRCRAFT[/b] units) are wholly within your opponent’s deployment zone."
+						},
+						{
+							"id": "GT21.01.01.03",
+							"name": "Stranglehold",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of your turn if you control 3 or more objective markers and you also control more objective markers than your opponent controls."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT21.01.02.01",
+							"name": "No Prisoners",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a Kill Points tally. Each time an enemy model is destroyed, unless that model is a [b]VEHICLE[/b], [b]MONSTER[/b] or [b]CHARACTER[/b], add a number of marks to this tally equal to the Wounds characteristic of the destroyed model. A model can, if it is resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially have marks added to this tally several times (assuming it is resurrected and subsequently destroyed several times over). At the end of the battle, divide your Kill Points tally by 10 and round down - the result is the number of victory points you score. In addition, if your Kill Points tally is between 50 and 99, you score 1 additional victory point, and if your Kill Points tally is 100 or more, you score 2 additional victory points."
+						},
+						{
+							"id": "GT21.01.02.02",
+							"name": "Grind Them Down",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of the battle round if more enemy units than friendly units were destroyed this battle round."
+						},
+						{
+							"id": "GT21.01.02.03",
+							"name": "To The Last",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle, after you have selected deployment zones, identify which three units from your army (excluding those with the Fortifications Battlefield Role) have the highest points value, and make a note of them on your army roster (if two or more are tied, you choose between them). If your army has three or fewer units, you instead identify all the units in your army. A unit’s points value includes the points of all weapons, other wargear and upgrades it has. You score 5 victory points for each of these units that are on the battlefield at the end of the battle. If a unit splits into several smaller units during the battle, all of those separate units (excluding [b]DRONE[/b] units) must be on the battlefield at the end of the battle to score 5 victory points; if some of those separate units (excluding [b]DRONE[/b] units) are on the battlefield at the end of the battle, but not all of them are, you score 3 victory points instead of 5."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT21.01.03.01",
+							"name": "Raise the Banners High",
+							"description": "[i]Progressive and End Game Objective[/i]\nIf you select this objective, then units in your army can perform the following action. You score 1 victory point at the end of each of your Command phases, and 1 victory point at the end of the battle, for each objective marker on the battlefield that has one of your banners raised upon it.",
+							"actions": [
+								{
+									"id": "GT21.01.03.01a",
+									"name": "Raise Banners (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]INFANTRY[/b] units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be in range of a different objective marker that does not have one of your banners raised upon it (see below). A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b]) in range of the same objective marker. The action is completed at the end of your turn. If this action is successfully completed, that objective marker is said to have one of your army’s banners raised on it (the banner is ‘removed’ if your opponent controls the objective marker at the start of any phase)."
+								}
+							]
+						},
+						{
+							"id": "GT21.01.03.02",
+							"name": "Investigate Signal",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time a unit from your army successfully completes the following action.",
+							"actions": [
+								{
+									"id": "GT21.01.03.02a",
+									"name": "Investigate Signal (Action)",
+									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] unit from your army that contains 3 or more models can start to perform this action at the end of your Movement phase if it is wholly within 6” of the centre of the battlefield. The action is completed at the end of your turn provided the unit attempting it is still wholly within 6” of the centre of the battlefield and no enemy units (excluding [b]AIRCRAFT[/b] units) are wholly within 6” of the centre of the battlefield."
+								}
+							]
+						},
+						{
+							"id": "GT21.01.03.03",
+							"name": "Retrieve Nachmund Data",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep Retrieved Data tally. In addition, units in your army can perform the following action.\n\nAt the end of the battle, score 4 victory points if your Retrieved Data tally is 2, score 8 victory points if your tally is 3, or score 12 victory points if your tally is 4.",
+							"actions": [
+								{
+									"id": "GT21.01.03.03a",
+									"name": "Retrieve Data (Action)",
+									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] or [b]BIKER[/b] unit can start to perform this action at the end of your Movement phase if it is wholly within a table quarter that has not had a servo-skull retrieved by your army (see below) and it is more than 6” away from any other table quarter. This action is completed at the end of your turn provided the unit attempting it is still within the same table quarter. If this action is successfully completed, roll one D6, subtracting 1 from the result if the unit that completed the action has the Troops battlefield role; if the result is less than or equal to the number of models currently in that unit, that table quarter is said to have had a servo-skull retrieved by your army and you add 1 to your Retrieved Data tally."
+								}
+							]
+						},
+						{
+							"id": "GT21.01.03.04",
+							"name": "Deploy Teleport Homers",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then units from your army can perform the following action. Each time a unit from your army successfully completes this action, you score 2 victory points (you score 4 victory points instead if the unit completed the action while wholly within your opponent's deployment zone).",
+							"actions": [
+								{
+									"id": "GT21.01.03.04a",
+									"name": "Deploy Teleport Homer (Action)",
+									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] or [b]BIKER[/b] unit from your army can start to perform this action at the end of your Movement phase if it is wholly within 12” of your opponent's deployment zone. If the unit attempting this action has the Troops battlefield role, the action is completed at the end of your turn; otherwise the action is completed at the end of your next Command phase. In either case, the action is only completed if the unit attempting it is still wholly within 12” of your opponent's deployment zone."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT21.01.04.01",
+							"name": "Assassination",
+							"description": "[i]End Game Objective[/i]\nScore 3 victory points at the end of the battle for each enemy [b]CHARACTER[/b] model that is destroyed. If the enemy [b]WARLORD[/b] was destroyed during the battle, gain 1 additional victory point."
+						},
+						{
+							"id": "GT21.01.04.02",
+							"name": "Titan Hunter",
+							"description": "[i]End Game Objective[/i]\nScore 4 victory points at the end of the battle if one enemy [b]TITANIC[/b] model is destroyed, 9 victory points if two enemy [b]TITANIC[/b] models are destroyed, or 15 victory points if three or more enemy [b]TITANIC[/b] models are destroyed."
+						},
+						{
+							"id": "GT21.01.04.03",
+							"name": "Bring it Down",
+							"description": "[i]End Game Objective[/i]\nScore 1 victory point at the end of the battle for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model with a Wounds characteristic of 9 or less that is destroyed, 2 victory points for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model with a Wounds characteristic of between 10-14 that is destroyed, and 3 victory points for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model with a Wounds characteristic of 15 or more that is destroyed."
+						}
+					]
+				},
+				{
+					"name": "Warpcraft",
+					"objectives": [
+						{
+							"id": "GT21.01.05.01",
+							"name": "Abhor the Witch",
+							"description": "[i]End Game Objective[/i]\nYou cannot select this secondary objective if your army includes any [b]PSYKER[/b] units. Score 3 victory points at the end of the battle for each enemy [b]PSYKER CHARACTER[/b] unit that is destroyed, and 2 victory points for every other enemy [b]PSYKER[/b] unit that is destroyed."
+						},
+						{
+							"id": "GT21.01.05.02",
+							"name": "Warp Ritual",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a tally of Ritual points; add 1 to that tally each time a unit from your army successfully completes the following psychic action during the battle. At the end of the battle, score 3 victory points if your Ritual tally is 1, score 7 victory points if your tally is 2, or score 12 victory points if your tally is 3 or more.",
+							"actions": [
+								{
+									"id": "GT21.01.05.02a",
+									"name": "Warp Ritual (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 3[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 6” of the centre of the battlefield."
+								}
+							]
+						},
+						{
+							"id": "GT21.01.05.03",
+							"name": "Pierce the Veil",
+							"description": "[i]End Game Objective[/i]\nScore 8 victory points at the end of the battle if one or more units from your army successfully completed the following psychic action 2 or more times times during the battle, or 15 victory points at the end of the battle if one or more units from your army successfully completed the following action 4 times during the battle (note that you can only score this objective once).",
+							"actions": [
+								{
+									"id": "GT21.01.05.03a",
+									"name": "Pierce the Veil (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 6” of your opponent's battlefield edge and more than 6” from any enemy models."
+								}
+							]
+						},
+						{
+							"id": "GT21.01.05.04",
+							"name": "Psychic Interrogation",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time you successfully complete the following psychic action.",
+							"actions": [
+								{
+									"id": "GT21.01.05.04a",
+									"name": "Psychic Interrogation (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 24” of any enemy [b]CHARACTER[/b] models."
+								}
+							]
+						}
+					]
+				}
+			]
+		}
 	]
 }
