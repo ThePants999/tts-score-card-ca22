@@ -30,7 +30,7 @@
 		{
 			"name": "23 - The Scouring",
 			"primary": "Take and Hold",
-			"mission": "[b]End Game Objective[/b]\nAt the end of the battle, each player scores 3 victory points for each objective marker on the battlefield that has been scanned by their army.\n\n[b]Auspex Scan (Action):[/b] One unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker that has not been scanned by a unit from your army (see below). A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b] units) in range of the same objective marker. This action is completed at the start of your next Command phase, or at the end of the battle (whichever happens first), provided the unit attempting it is still in range of the same objective marker. If this action is successfully completed, that objective marker is said to have been scanned by your army."
+			"mission": "[b]STRATEGIC SCAN[/b]\n[b]End Game Objective[/b]\nAt the end of the battle, each player scores 3 victory points for each objective marker on the battlefield that has been scanned by their army.\n\n[b]Auspex Scan (Action):[/b] One unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker that has not been scanned by a unit from your army (see below). A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b] units) in range of the same objective marker. This action is completed at the start of your next Command phase, or at the end of the battle (whichever happens first), provided the unit attempting it is still in range of the same objective marker. If this action is successfully completed, that objective marker is said to have been scanned by your army."
 		},
 		{
 			"name": "31 - Tide Of Conviction",
@@ -45,7 +45,7 @@
 		{
 			"name": "33 - Secure Missing Artifacts",
 			"primary": "Take and Hold",
-			"mission": "[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 3 victory points if they control the Priority objective marker that is in their own territory."
+			"mission": "[b]PRECIOUS ARTEFACTS[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 3 victory points if they control the Priority objective marker that is in their own territory."
 		}
 	],
 	"factions": [
