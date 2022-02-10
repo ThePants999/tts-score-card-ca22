@@ -850,7 +850,7 @@
 					"objectives": [
 						{
 							"id": "EW.24.03.01",
-							"name": "Aerospace Targeting Relays",
+							"name": "Aero Targeting Relays",
 							"description": "[i]End Game Objective[/i]\nIf you select this objective, place an Aerospace Designation marker half way along each battlefield edge. Units in your army can perform the Install Targeting Relay action.\n\nAt the end of the battle, you score a number of victory points based on how many targeting relays were installed, as follows.\n- 1 relay: 2 points\n- 2 relays: 6 points\n- 3 relays: 9 points\n- 4 relays: 15 points",
 							"actions": [
 								{
