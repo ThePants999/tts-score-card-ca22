@@ -820,6 +820,49 @@
 					]
 				}
 			]
+		},
+		{
+			"faction": "T'AU EMPIRE",
+			"name": "T'au Empire",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "EW.24.01.01",
+							"name": "Decisive Action",
+							"description": "[i]Progressive Objective[/i]\nIf you selected the Mont'ka Tactical Philosophy at the start of the battle, then at the end of your turn in battle rounds one, two and three, score 4 victory points if you control half or more of the total number of objective markers on the battlefield.\n\nIf you selected the Kauyon Tactical Philosophy at the start of the battle, then at the end of your turn in battle rounds three, four and five, score 4 victory points if you control half or more of the total number of objective markers on the battlefield."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "EW.24.02.01",
+							"name": "A Clean Victory",
+							"description": "[i]Progressive Objective[/i]\nIf you selected the Mont'ka Tactical Philosophy at the start of the battle, then at the end of battle rounds one, two and three you can score each of the following:\n- 1 victory point if one or more enemy units were destroyed that battle round.\n- 3 victory points if three or more enemy units were destroyed that battle round.\n\nIf you selected the Kauyon Tactical Philosophy at the start of the battle, then at the end of battle rounds three, four and five you can score each of the following:\n- 1 victory point if one or more enemy units were destroyed that battle round.\n- 3 victory points if three or more enemy units were destroyed that battle round."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "EW.24.03.01",
+							"name": "Aerospace Targeting Relays",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, place an Aerospace Designation marker half way along each battlefield edge. Units in your army can perform the Install Targeting Relay action.\n\nAt the end of the battle, you score a number of victory points based on how many targeting relays were installed, as follows.\n- 1 relay: 2 points\n- 2 relays: 6 points\n- 3 relays: 9 points\n- 4 relays: 15 points",
+							"actions": [
+								{
+									"id": "EW.24.03.01a",
+									"name": "Install Targeting Relay (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]INFANTRY[/b] units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be within 6\" of a different Aerospace Designation marker that has not had a targeting relay installed at it (see below). The action is completed at the end of your next Command phase or at the end of the battle, whichever comes first. If this action is successfully completed, that Aerospace Designation marker is said to have had a targeting relay installed at it."
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
