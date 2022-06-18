@@ -97,7 +97,7 @@
 						},
 						{
 							"id": "GT22.04.03.03",
-							"name": "We March for Macragge (UM)",
+							"name": "March for Macragge (UM)",
 							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]ULTRAMARINES CORE INFANTRY[/b] units from your army can attempt the Claimed for Macragge action. Score 4 victory points each time a unit from your army completes this action.",
 							"actions": [
 								{
@@ -1141,12 +1141,12 @@
 					"objectives": [
 						{
 							"id": "GT22.27.02.01",
-							"name": "Specimens for the Spider (CoB)",
+							"name": "Specimens (CoB)",
 							"description": "[i]Progressive and End Game Objective[/i]\nAt the end of the battle round:\n- Score 3 victory points if one or more [b]CHARACTER[/b] or [b]MONSTER[/b] units were destroyed by a melee attack made by a [b]CREATIONS OF BILE[/b] model from your army this battle round.\n- Score 2 victory points if one or more units (excluding [b]CHARACTER[/b], [b]MONSTER[/b] or [b]VEHICLE[/b] units) were destroyed by a melee attack made by a [b]CREATIONS OF BILE[/b] model from your army this battle round.\n\nAt the end of the battle, if one or more [b]ADEPTUS ASTARTES[/b], [b]SANCTIC ASTARTES[/b] or [b]HERETIC ASTARTES[/b] units were destroyed by a melee attack made by a [b]CREATIONS OF BILE[/b] model from your army during the battle, score 1 additional victory point."
 						},
 						{
 							"id": "GT22.27.02.01",
-							"name": "Skulls for the Skull Throne (WE)",
+							"name": "Skulls (WE)",
 							"description": "[i]End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, select one [b]WORLD EATERS CHARACTER[/b] model from your army to issue the challenge, then select one [b]CHARACTER[/b] model from your opponent's army to accept the challenge. Score 5 victory points at the end of the battle for each of the following conditions that have been satisfied:\n- The model that accepted the challenge is destroyed.\n- The model that accepted the challenge was destroyed as the result of a melee attack.\n- The model that accepted the challenge was destroyed as the result of an attack made by the model that issued the challenge.\n\nIf the model that accepted the challenge is a Strategic Reserve or Reinforcement unit and is destroyed as a result of not arriving on the battlefield, all of the above conditions are considered to have been satisfied. If all three of these conditions are satisfied during the battle, you immediately gain 1 Command point."
 						}
 					]
@@ -1156,7 +1156,7 @@
 					"objectives": [
 						{
 							"id": "GT22.27.03.01",
-							"name": "Infiltrate and Subvert (AL)",
+							"name": "Infiltrate & Subvert (AL)",
 							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]ALPHA LEGION INFANTRY[/b] units from your army can attempt the Subvert action. Each time a unit from your army completes this action, score 3 victory points. Score 4 victory points instead if that unit completed this action wholly within your opponent's deployment zone.",
 							"actions": [
 								{
@@ -1168,7 +1168,7 @@
 						},
 						{
 							"id": "GT22.27.03.02",
-							"name": "Masters of Demolition (IW)",
+							"name": "Demolition (IW)",
 							"description": "[i]End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, your opponent must set up three objective markers anywhere on the battlefield that are on ground level, not within 9\" of each other, and not within 6\" of any battlefield edge. These objective markers cannot be set up on terrain features with the Unstable Position terrain trait, and no more than one of them can be set up within 6\" of your opponent's deployment zone. If it is impossible to set up an objective marker, it is not set up. Each represents a demolition site, but does not count as an objective marker for any rules purposes other than for this objective. [b]IRON WARRIORS INFANTRY[/b] units from your army can attempt the Total Demolition action.\n\nAt the end of the battle, score 4 victory points for each demolition site objective marker that was demolished by your army. Score an additional 3 victory points if a demolition site objective marker that was within 6\" if your opponent's deployment zone was demolished by your army.",
 							"actions": [
 								{
