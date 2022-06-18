@@ -643,8 +643,8 @@
 							"actions": [
 								{
 									"id": "GT22.16.04.01a",
-									"name": "Scry Futures (Psychic Action - Warp Charge 4)",
-									"description": "[i]Psychic Action[/i]\nOne [b]ASURYANI PSYKER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within range of an objective marker that has not yet been scried by your army. If this psychic action is completed, that objective marker is said to have been scried by your army."
+									"name": "Scry Futures (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]ASURYANI PSYKER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within range of an objective marker that has not yet been scried by your army. If this psychic action is completed, that objective marker is said to have been scried by your army."
 								}
 							]
 						}
@@ -686,8 +686,8 @@
 							"actions": [
 								{
 									"id": "GT22.17.03.01a",
-									"name": "Weave Veil (Psychic Action - Warp Charge 3)",
-									"description": "[i]Psychic Action[/i]\nOne [b]SHADOWSEER[/b] model from your army can attempt to perform this psychic action in your Psychic phase if it is within 18\" of an enemy unit that has not yet been veiled by your army. If this psychic action is completed, select one enemy unit that has not yet been veiled by your army and is within 18\" of the [b]SHADOWSEER[/b] model that completed this action. That enemy unit is said to have been veiled by your army, and the warp charge value of this psychic action is increased by 1 for your army for the remainder of the battle."
+									"name": "Weave Veil (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 3[/i]\nOne [b]SHADOWSEER[/b] model from your army can attempt to perform this psychic action in your Psychic phase if it is within 18\" of an enemy unit that has not yet been veiled by your army. If this psychic action is completed, select one enemy unit that has not yet been veiled by your army and is within 18\" of the [b]SHADOWSEER[/b] model that completed this action. That enemy unit is said to have been veiled by your army, and the warp charge value of this psychic action is increased by 1 for your army for the remainder of the battle."
 								}
 							]
 						}
