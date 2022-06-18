@@ -1,0 +1,211 @@
+{
+	"ver": "Nephilim_01",
+	"name": "GT: Nephilim",
+	"missions": [
+		{
+			"name": "Recover The Relics",
+			"primary": "Take and Hold",
+			"mission": "[b]BREAK THEM, BODY AND SOUL[/b]\n[b]Progressive Objective[/b]\nAt the end of each battle round, each player scores 1 victory point for each enemy unit that was destroyed during that battle round (to a maximum of 3 victory points per player per battle round). A unit can, if it is destroyed and resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially count as having been destroyed several times for the purposes of this primary objective (assuming it is resurrected and subsequently destroyed several times over during the same battle round)."
+		},
+		{
+			"name": "Tear Down Their Icons",
+			"primary": "Take and Hold",
+			"mission": "[b]DETONATION[/b]\n[b]End Game Objective[/b]\nAt the end of the battle, each player scores 4 victory points for each Primed Explosives objective marker that is within their opponent's territory (to a maximum of 15 victory points per player).\n\n[b]Prime Explosives (Action):[/b] One unit from your army can start to perform this action at the end of your Movement phase if it is wholly within your opponent's territory and it is more than 9\" away from any Primed Explosives objective markers (see below). If the unit performing this action has the Objective Secured ability (see the Warhammer 40,000 Core Book) or a similar rule, this action is completed at the end of your turn; otherwise, it is completed at the end of your next Command phase. If this action is successfully completed, set up 1 Primed Explosives objective marker on the battlefield that is wholly within your opponent's territory and wholly within 3\" of the unit that completed this action - this represents a cache of Primed Explosives, but does not count as an objective marker for any rules purposes other than for the Defuse Explosives action and the Detonation primary objective.\n\n[b]Defuse Explosives (Action):[/b]One unit from your army can start to perform this action at the end of your Movement phase if it is within range of a Primed Explosives objective marker within your own territory and no enemy units (excluding [b]AIRCRAFT[/b]) are within range of the same Primed Explosives objective marker. This action is completed at the end of your turn provided the unit attempting it is still within range of the same Primed Explosives objective marker. If this action is successfully completed, roll one D6 and add 3 to the result if the unit that performed this action has the Objective Secured ability or a similar rule: on a 4+, remove that Primed Explosives objective marker from the battlefield."
+		},
+		{
+			"name": "Data Scry-Salvage",
+			"primary": "Domination",
+			"mission": "[b]DATA INTERCEPT[/b]\n[b]Progressive Objective[/b]\nEach time a unit from your army successfully completes the Data Intercept action, you score a number of victory points equal to the number of objective markers you currently control that are in no man's land, to a maximum of 3 victory points per action.\n\n[b]Data Intercept (Action):[/b] One unit from your army can start to perform this action at the end of your Movement phase if it is within range of the objective marker within its own deployment zone and no enemy units (excluding [b]AIRCRAFT[/b]) are within range of that objective marker. This action is completed at the end of your turn, provided the unit attempting it is still within range of that objective marker."
+		},
+		{
+			"name": "Abandoned Sanctuaries",
+			"primary": "Take and Hold",
+			"mission": "[b]SECURE THE SANCTUARIES[/b]\n[b]Progressive and End Game Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 2 victory points if they satisfy at least one of the following conditions:\n- They control the objective marker in the centre of the battlefield.\n- They destroyed at least one enemy unit that was within 6\" of the centre of the battlefield at the start of their turn.\n\nAt the end of the battle, whichever player controls the objective marker in the centre of the battlefield scores 5 victory points."
+		},
+		{
+			"name": "Conversion",
+			"primary": "Take and Hold",
+			"mission": "[b]CORRUPTED GROUND[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is:\n- Scores 4 victory points if they control the objective marker in their opponent's deployment zone.\n- Scores 2 victory points if they control one or more objective markers that are in no man's land.\n- Loses 1 victory point if they do not control the objective marker in their own deployment zone.\n\nA player's victory point score can never be reduced to less than 0."
+		},
+		{
+			"name": "The Scouring",
+			"primary": "Take and Hold",
+			"mission": "[b]STRATEGIC SCAN[/b]\n[b]End Game Objective[/b]\nAt the end of the battle, each player scores 3 victory points for each objective marker on the battlefield that has been scanned by their army.\n\n[b]Auspex Scan (Action):[/b] One unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker that has not been scanned by a unit from your army (see below). A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b] units) in range of the same objective marker. This action is completed at the start of your next Command phase, or at the end of the battle (whichever happens first), provided the unit attempting it is still in range of the same objective marker. If this action is successfully completed, that objective marker is said to have been scanned by your army."
+		},
+		{
+			"name": "Tide Of Conviction",
+			"primary": "Domination",
+			"mission": "[b]OVERRUN[/b]\n[b]Progressive and End Game Objective[/b]\nAt the end of each player's first, second, third and fourth turn, the player whose turn it is scores 2 victory points if they control at least one objective marker in their opponent's territory.\n\nAt the end of the battle, each player scores 4 victory points if they control the objective marker in their opponent's deployment zone, and 2 victory points for each other objective marker that they control that is in their opponent's territory (for a maximum of 8 victory points per player)."
+		},
+		{
+			"name": "Death And Zeal",
+			"primary": "Take and Hold",
+			"mission": "[b]DIRECT ASSAULT[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 2 victory points if they satisfy one of the following conditions, or 3 victory points if they satisfy both of the following conditions:\n- They control every objective marker on the battlefield or they control at least one objective marker that they did not control at the start of their turn.\n- They destroyed at least one enemy unit that was in range of an objective marker at the start of their turn."
+		},
+		{
+			"name": "Secure Missing Artifacts",
+			"primary": "Take and Hold",
+			"mission": "[b]PRECIOUS ARTEFACTS[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 3 victory points if they control the Priority objective marker that is in their own territory."
+		},
+		{
+			"name": "Cleanse The Land",
+			"primary": "Take and Hold",
+			"mission": "[b]DIRECT ASSAULT[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 2 victory points if they satisfy one of the following conditions, or 3 victory points if they satisfy both of the following conditions:\n- They control every objective marker on the battlefield or they control at least one objective marker that they did not control at the start of their turn.\n- They destroyed at least one enemy unit that was in range of an objective marker at the start of their turn."
+		},
+		{
+			"name": "Deliverance",
+			"primary": "Take and Hold",
+			"mission": "[b]SECURE LANDING SITES[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores a number of victory points for each objective marker that they control that is in no man's land, as shown below (note that the victory points scored changes depending on the battle round number):\n\n- Battle round 3: 2VP per objective\n- Battle round 4: 3VP per objective\n- Battle round 5: 4VP per objective\n\nThis primary objective cannot be scored in the first or second battle rounds."
+		},
+		{
+			"name": "Desperate Raid",
+			"primary": "Take and Hold",
+			"mission": "[b]RAID SUPPLY LINES[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 3 victory points if they control at least one of the objective markers that is in their opponent's deployment zone."
+		},
+		{
+			"name": "Sacred Ground",
+			"primary": "Take and Hold",
+			"mission": "[b]WISDOM IS THE CORNERSTONE OF FAITH[/b]\n[b]Progressive Objective[/b]\nAt the end of player A's turn, that player:\n- Scores 2 victory points if they control objective marker B\n- Loses 1 victory point if they do not control objective marker A\n- Scores 1 victory point for each other objective marker that they control.\n\nAt the end of player B's turn, that player:\n- Scores 2 victory points if they control objective marker A\n- Loses 1 victory point if they do not control objective marker B\n- Scores 1 victory point for each other objective marker that they control.\n\nNeither player's victory points score can ever be reduced to less than 0."
+		},
+		{
+			"name": "Ascension",
+			"primary": "Take and Hold",
+			"mission": "[b]ASCEND[/b]\n[b]Progressive and End Game Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 2 victory points if they satisfy at least one of the following conditions:\n- They control the objective marker in the centre of the battlefield.\n- They destroyed at least one enemy unit that was within 6\" of the centre of the battlefield at the start of their turn.\n\nAt the end of the battle, each player scores 3 victory points for each of the following conditions that they satisfy (for a maximum of 6 victory point per player):\n- Their [b]WARLORD[/b] is within range of the objective marker in the centre of the battlefield.\n- Their opponent's [b]WARLORD[/b] is destroyed."
+		},
+		{
+			"name": "Surge of Faith",
+			"primary": "Take and Hold",
+			"mission": "[b]SURGE OF FAITH[/b]\n[b]Progressive Objective[/b]\nEach time a unit from your army successfully completes the Surge of Faith action, you score a number of victory points depending on which objective marker this action was performed on, as follows:\n\n- Objective marker A: 4 points for player B.\n- Marker B: 2 points for player A, 3 points for player B.\n- Objective marker C: 3 points for player A, 2 points for player B.\n-b Objective marker D: 4 points for player A."
+		},
+		{
+			"name": "Rise of the Machine Spirit",
+			"primary": "Take and Hold",
+			"mission": "[b]INLOAD DATA-PSALM[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, if one or more units from that player's army successfully completed the Inload Data-psalm action during this turn, that player scores 1 victory point for each objective marker that they currently control (to a maximum of 3 victory points per player per turn)."
+		},
+		{
+			"name": "Display of Spiritual Might",
+			"primary": "Take and Hold",
+			"mission": "[b]BREAK THEM, BODY AND SOUL[/b]\n[b]Progressive Objective[/b]\nAt the end of each battle round, each player scores 1 victory point for each enemy unit that was destroyed during that battle round (to a maximum of 3 victory points per player per battle round). A unit can, if it is destroyed and resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially count as having been destroyed several times for the purposes of this primary objective (assuming it is resurrected and subsequently destroyed several times over during the same battle round)\r\n\r\n\r\n"
+		},
+		{
+			"name": "Reconnaissance Mission",
+			"primary": "Take and Hold",
+			"mission": "[b]RECON SWEEP[/b]\n[b]End Game Objective[/b]\nAt the end of the battle, each player scores a number of victory points for the total number of objective markers on the battlefield that have been reconnoitred by their army, as shown in the following table:\n\n- 1 objective marker reconnoitred by your army: 3 victory points\n- 2 objective markers: 6 points\n- 3 objective markers: 10 points\n- 4 objective markets: 15 points"
+		}
+	],
+	"factions": [
+		{
+			"name": "Generic",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.02.01.01",
+							"name": "Engage on All Fronts",
+							"description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn if you have one or more qualifying units (see below) from your army wholly within three different table quarters, and those units are all more than 6\" from any other table quarter. Score 3 victory points instead if you have one or more qualifying units from your army wholly within each table quarter, and those units are all more than 6\" from any other table quarter. A qualifying unit is one that has a Starting Strength of 3 or more models, or one that contains 1 or more [b]VEHICLE[/b] or [b]MONSTER[/b] models (excluding [b]AIRCRAFT[/b] models)."
+						},
+						{
+							"id": "GT22.02.01.02",
+							"name": "Behind Enemy Lines",
+							"description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn if one unit from your army (excluding [b]AIRCRAFT[/b] units) is wholly within your opponent’s deployment zone. Score 4 victory points at the end of your turn instead if two or more units from your army (excluding [b]AIRCRAFT[/b] units) are wholly within your opponent’s deployment zone."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.02.02.01",
+							"name": "No Prisoners",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a Kill Points tally. Each time an enemy model is destroyed (excluding [b]VEHICLE[/b], [b]MONSTER[/b] or [b]CHARACTER[/b] models), add a number of marks to this tally equal to the Wounds characteristic of the destroyed model. At the end of the battle, divide your Kill Points tally by 10 and round down - the result is the number of victory points you score. In addition, if your Kill Points tally is between 50 and 99, you score 1 additional victory point, and if your Kill Points tally is 100 or more, you score 2 additional victory points."
+						},
+						{
+							"id": "GT22.02.02.02",
+							"name": "Grind Them Down",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of the battle round if more enemy units than friendly units were destroyed this battle round."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.02.03.01",
+							"name": "Raise the Banners High",
+							"description": "[i]Progressive and End Game Objective[/i]\nIf you select this objective, then units in your army can perform the following action. You score 1 victory point at the end of each of your Command phases, and 1 victory point at the end of the battle, for each objective marker on the battlefield that has one of your banners raised upon it.",
+							"actions": [
+								{
+									"id": "GT22.02.03.01a",
+									"name": "Raise Banners (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]INFANTRY[/b] units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be within range of a different objective marker you control that does not have one of your banners raised upon it (see below). The action is completed at the end of your turn. If completed, that objective marker is said to have one of your army’s banners raised on it (the banner is ‘removed’ if your opponent controls the objective marker at the start of the Command Phase)."
+								}
+							]
+						},
+						{
+							"id": "GT22.02.03.02",
+							"name": "Retrieve Nephilim Data",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep Retrieved Data tally. In addition, units in your army can perform the following action.\n\nAt the end of the battle, score 4 victory points if your Retrieved Data tally is 2, score 8 victory points if your tally is 3, or score 12 victory points if your tally is 4.",
+							"actions": [
+								{
+									"id": "GT22.02.03.03a",
+									"name": "Retrieve Data (Action)",
+									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] or [b]BIKER[/b] unit can start to perform this action at the end of your Movement phase if it is wholly within a table quarter that has not had a servo-skull retrieved by your army (see below) and it is more than 6” away from any other table quarter. This action is completed at the end of your turn provided the unit attempting it is still within the same table quarter. If this action is successfully completed, roll one D6, subtracting 1 from the result if the unit that completed the action has the Troops battlefield role; if the result is less than or equal to the number of models currently in that unit, that table quarter is said to have had a servo-skull retrieved by your army and you add 1 to your Retrieved Data tally."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.02.04.01",
+							"name": "Assassination",
+							"description": "[i]End Game Objective[/i]\nScore 3 victory points at the end of the battle for each enemy [b]CHARACTER[/b] model that is destroyed. At the end of the battle, if the enemy [b]WARLORD[/b] is destroyed, score 1 additional victory point."
+						},
+						{
+							"id": "GT22.02.04.02",
+							"name": "Bring it Down",
+							"description": "[i]End Game Objective[/i]\nAt the end of the battle, score victory points for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model that is destroyed, as follows:\n- Score 1 victory point for each of those destroyed models with a Wounds characteristic of 9 or less\n- Score 2 victory points for each of those destroyed models with a Wounds characteristic of 10-14\n- Score 3 victory points for each of those destroyed models with a Wounds characteristic of 15-19\n- Score 4 victory points for each of those destroyed models with a Wounds characteristic of 20 or more"
+						}
+					]
+				},
+				{
+					"name": "Warpcraft",
+					"objectives": [
+						{
+							"id": "GT22.02.05.01",
+							"name": "Abhor the Witch",
+							"description": "[i]End Game Objective[/i]\nYou cannot select this secondary objective if your army includes any [b]PSYKER[/b] units. Score 3 victory points at the end of the battle for each enemy [b]PSYKER CHARACTER[/b] unit that is destroyed, and 2 victory points for every other enemy [b]PSYKER[/b] unit that is destroyed."
+						},
+						{
+							"id": "GT22.02.05.02",
+							"name": "Warp Ritual",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a Ritual Points tally; add 1 to that tally each time a unit from your army successfully completes the following psychic action during the battle. At the end of the battle, score 3 victory points if your Ritual tally is 1, score 7 victory points if your tally is 2, or score 12 victory points if your tally is 3 or more.",
+							"actions": [
+								{
+									"id": "GT22.02.05.02a",
+									"name": "Warp Ritual (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 3[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 6” of the centre of the battlefield."
+								}
+							]
+						},
+						{
+							"id": "GT22.02.05.03",
+							"name": "Psychic Interrogation",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time you successfully complete the following psychic action. In addition, if the result of the Psychic test is equal to or greater than the Leadership characteristic of any enemy [b]CHARACTER[/b] models within 24\" of the [b]PSYKER[/b] unit that completed this psychic action, you gain 1 Command Point at the end of the phase.",
+							"actions": [
+								{
+									"id": "GT22.02.05.04a",
+									"name": "Psychic Interrogation (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 24” of any enemy [b]CHARACTER[/b] models."
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,6 +1,8 @@
 {
-	"ver": "2022-01-11",
+	"ver": "2022-06-22",
 	"packs": [
+		"nephilim-core",
+		"nephilim-factions",
 		"gt2022",
 		"factions"
 	]
