@@ -737,6 +737,92 @@
 			]
 		},
 		{
+			"faction": "TYRANIDS",
+			"name": "Tyranids",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.19.01.01",
+							"name": "Synaptic Insight",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, keep a Synaptic Kill points tally. Reset your Synaptic Kill points tally to 0 at the start of each battle round. Each time an enemy model is destroyed by a [b]SYNAPSE[/b] model from your army:\n- If that enemy model had a Wounds characteristic of 3-5, gain 1 Synaptic Kill point.\n- If that enemy model had a Wounds characteristic of 6-9, gain 2 Synaptic Kill points.\n- If that enemy model had a Wounds characteristic of 10 or more, gain 3 Synaptic Kill points.\n\nAt the end of the battle round, score 3 victory points if your Synaptic Kill points tally is 4 or more. You can score a maximum of 12 victory points per battle from this secondary objective."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.19.02.01",
+							"name": "Spore Nodes",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]HIVE TENDRIL[/b] Troops units from your army can attempt the Seed Spore Node action. Score 4 victory points each time a unit from your army completes the Seed Spore Node action.",
+							"actions": [
+								{
+									"id": "GT22.19.02.01a",
+									"name": "Seed Spore Node (Action)",
+									"description": "[i]Action[/i]\nOne [b]HIVE TENDRIL[/b] Troops unit from your army can start to perform this action at the end of your Movement phase from the second battle round onwards if it is within 6\" of your opponent's deployment zone and not within 6\" of any Spore Node objective markers. The action is completed at the end of your turn. If completed, place one objective marker anywhere within 1\" of the unit that completed this action. This objective marker represents a Spore Node, but does not count as an objective marker for any rules purposes other than for this secondary objective."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.19.03.01",
+							"name": "Cranial Feasting",
+							"description": "[i]End Game Objective[/i]\nEach time an enemy [b]CHARACTER[/b] model or unit champion is destroyed by a melee attack made by a [b]HIVE TENDRIL[/b] model from your army, roll one D6, adding 2 to the roll if that [b]HIVE TENDRIL[/b] model has the [b]FEEDER TENDRILS[/b] keyword, and adding 2 to the result if the destroyed model has the [b]CHARACTER[/b] keyword: on a 6+, you gain 1 Command point.\n\nAt the end of the battle:\n- Score 3 victory points if you gained 1 or more Command points during the battle due to this secondary objective.\n- Score 1 victory point for each enemy unit champion that is destroyed, if it was destroyed by a melee attack made by a [b]HIVE TENDRIL[/b] model from your army.\n- Score 3 victory points for each enemy [b]CHARACTER[/b] unit that is destroyed, if it was destroyed by a melee attack made by a [b]HIVE TENDRIL[/b] model from your army.\n- Score an additional 3 victory points if the enemy [b]WARLORD[/b] is destroyed, if it was destroyed by a melee attack made by a [b]FEEDER TENDRILS[/b] model from your army."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "GENESTEALER CULTS",
+			"name": "Genestealer Cults",
+			"categories": [
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.20.01.01",
+							"name": "Sabotage Location",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, your opponent must place 2 critical location markers on the battlefield. Each must be more than 9\" away from any battlefield edge and more than 9\" away from their other critical location marker. If both players must place these markers, the players alternate doing so, starting with the Defender.\n\nIf you select this objective, then units from your army can perform the Sabotage Critical Location action.\n\nScore victory points each time a unit from your army completes the Sabotage Critical Location action:\n- 9 victory points if completed on battle round 2\n- 7 victory points if completed on battle round 3\n- 6 victory points if completed on battle round 4\n- 4 victory points if completed on battle round 5",
+							"actions": [
+								{
+									"id": "GT22.20.01.01a",
+									"name": "Sabotage Critical Location (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]GENESTEALER CULTS INFANTRY[/b], [b]BROOD BROTHERS INFANTRY[/b] or [b]GENESTEALER CULTS BIKER[/b] units from your army (excluding [b]CHARACTER[/b] units other than [b]REDUCTUS SABOTEUR[/b] units) can start to perform this action at the end of the Move Units step of your Movement phase. Each unit from your army that starts to perform this action must be within range of a different one of your opponent's critical location markers that you control. The action is completed at the end of your turn, provided the unit performing it is still within range of the same critical location marker. If completed, you have sabotaged that critical location; remove it from the battlefield."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.20.02.01",
+							"name": "Broodswarm",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 1 victory point for each of the following conditions you satisfy (for a maximum of 5 victory points):\n- You have more models on the battlefield than your opponent does.\n- You have more models within your opponent's deployment zone than your opponent does.\n- You have more models within your deployment zone than your deployment does.\n- You have more models on the battlefield that are within no man's land than your opponent does.\n- All four of the above bullet points apply."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.20.03.01",
+							"name": "Ambush",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score victory points alows (to a maximum of 4 victory points):\n- Score 1 victory point if one or more enemy units were destroyed this turn by units from your army while they had a crossfire marker.\n- Score 2 victory points if one or more enemy units were destroyed this turn by units from your army that were set up from ambush or from underground this turn.\n- Score 2 victory points if one or more enemy units were destroyed this turn as a result of a ranged attack made by a model from your army, and that enemy unit was Exposed when it was selected as the target for that attack. Note, that enemy unit must have been Exposed as specified on page 89 of the codex, rather than by any other means (e.g. the Priority Target ability)."
+						}
+					]
+				}
+			]
+		},
+		{
 			"faction": "NECRONS",
 			"name": "Necrons",
 			"categories": [
@@ -939,49 +1025,6 @@
 			]
 		},
 		{
-			"faction": "GENESTEALER CULTS",
-			"name": "Genestealer Cults",
-			"categories": [
-				{
-					"name": "Shadow Operations",
-					"objectives": [
-						{
-							"id": "GT22.17.01.01",
-							"name": "Sabotage Location",
-							"description": "[i]Progressive Objective[/i]\nAfter choosing deployment zones, your opponent must place 2 critical location markers on the battlefield. Each of their critical location markers must be more than 9\" away from any battlefield edge and more than 9\" away from their other critical location marker. If both players must place these markers, the players alternate doing so, starting with the Defender.\n\nIf you select this objective, then units from your army can perform the following action.\n\nScore victory points each time a unit from your army completes the Sabotage Critical Location action:\n- 9 victory points if completed on battle round 2\n- 7 victory points if completed on battle round 3\n- 5 victory points if completed on battle round 4\n- 3 victory points if completed on battle round 5\n\nThis secondary objective cannot be scored in the first battle round.",
-							"actions": [
-								{
-									"id": "GT22.17.01.01a",
-									"name": "Sabotage Critical Location (Action)",
-									"description": "[i]Action[/i]\nOne or more [b]INFANTRY[/b] or [b]BIKER[/b] units from your army (excluding [b]CHARACTER[/b] units other than [b]REDUCTUS SABOTEUR[/b] units) can start to perform this action at the end of the Move Units step of your Movement phase. Each unit from your army that starts to perform this action must be within 3\" of the centre of a different one of your opponent's critical location markers, and no enemy units (excluding [b]AIRCRAFT[/b] units) can be within 3\" of the centre of that critical location marker. The action is completed at the end of your turn, provided the unit performing it is still within range of the same critical location marker. If this action is successfully completed, you have sabotaged that critical location; remove that critical location marker from the battlefield."
-								}
-							]
-						}
-					]
-				},
-				{
-					"name": "Battlefield Supremacy",
-					"objectives": [
-						{
-							"id": "GT22.17.02.01",
-							"name": "Broodswarm",
-							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 1 victory point for each of the following that applies (to a maximum of 4 victory points):\n- You have more models within your opponent's deployment zone than your opponent does.\n- You have more models within your deployment zone than your deployment does.\n- You have more models on the battlefield that are not within either player's deployment zon than your opponent does.\n- All three of the above bullet points apply."
-						}
-					]
-				},
-				{
-					"name": "Purge the Enemy",
-					"objectives": [
-						{
-							"id": "GT22.17.03.01",
-							"name": "Ambush",
-							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score victory points in the following ways:\n- Score 1 victory point if one or more enemy units were destroyed this turn while they had a crossfire marker.\n- Score 1 victory point if one or more enemy units were destroyed this turn by units from your army that were set up from ambush or from underground during this turn.\n- Score 1 victory point if one or more enemy units were destroyed this turn as a result of a ranged attack made by a model from your army, and that enemy unit was Exposed when it was selected as the target for that ranged attack. Note that enemy unit must have been Exposed as specified on page 89 of the codex, rather than by any other means (e.g. the Priority Target ability)."
-						}
-					]
-				}
-			]
-		},
-		{
 			"faction": "CHAOS KNIGHTS",
 			"name": "Chaos Knights",
 			"categories": [
@@ -1061,49 +1104,6 @@
 							"id": "GT22.22.01.01",
 							"name": "The Long War",
 							"description": "[i]Progressive Objective[/i]\n- At the end of your turn, you score 1 victory point for each enemy unit that was within range of an objective marker at the start of that turn that was destroyed by a [b]HERETIC ASTARTES[/b] unit from your army during that turn.\n\n- At the end of your turn, you score 2 victory points if you control one or more objective markers that were controlled by your opponent at the start of that turn, and a [b]HERETIC ASTARTES[/b] unit from your army is within range of one or more of those objective markers.\n\nYou cannot score more than 3 victory points from this secondary objective per turn."
-						}
-					]
-				}
-			]
-		},
-		{
-			"faction": "TYRANIDS",
-			"name": "Tyranids",
-			"categories": [
-				{
-					"name": "No Mercy, No Respite",
-					"objectives": [
-						{
-							"id": "GT22.23.01.01",
-							"name": "Synaptic Insight",
-							"description": "[i]Progressive Objective[/i]\nIf you select this objective, keep a tally of Synaptic Kill points. Reset your Synaptic Kill points tally to 0 at the start of each battle round. Each time an enemy model (excluding Dedicated Transport models) is destroyed by a [b]SYNAPSE[/b] model from your army:\n- If that enemy model had a Wounds characteristic of between 3 and 5, add 1 to your Synaptic Kill points tally.\n- If that enemy model had a Wounds characteristic of between 6 and 9, add 2 to your Synaptic Kill points tally.\n- If that enemy model had a Wounds characteristic of 10 or more, add 3 to your Synaptic Kill points tally.\n\nScore 3 victory points at the end of the battle round if your Synaptic Kill points tally for that battle round is 4 or more. You cannot score more than 12 victory points from this objective."
-						}
-					]
-				},
-				{
-					"name": "Shadow Operations",
-					"objectives": [
-						{
-							"id": "GT22.23.02.01",
-							"name": "Spore Nodes",
-							"description": "[i]Progressive Objective[/i]\nScore 4 victory points each time a unit from your army successfully completes the Seed Spore Node action.",
-							"actions": [
-								{
-									"id": "GT22.23.02.01a",
-									"name": "Seed Spore Node (Action)",
-									"description": "[i]Action[/i]\nOne Troops unit from your army can start to perform this action at the end of your Movement phase from the second battle round onwards if it is within 6\" of your opponent's deployment zone and not within 6\" of any Spore Node objective markers. The action is completed at the end of your turn. If this action is successfully completed, place one objective marker anywhere wholly within your opponent's deployment zone and within 1\" of the unit that completed this action. This objective marker represents a Spore Node, but does not count as an objective marker for any rules purposes other than for this secondary objective."
-								}
-							]
-						}
-					]
-				},
-				{
-					"name": "Purge the Enemy",
-					"objectives": [
-						{
-							"id": "GT22.23.03.01",
-							"name": "Cranial Feasting",
-							"description": "[i]End Game Objective[/i]\nEach time an enemy [b]CHARACTER[/b] model or unit champion is destroyed by a melee attack made by a [b]HIVE TENDRIL[/b] model from your army, roll one D6, adding 2 to the roll if that [b]HIVE TENDRIL[/b] model has the [b]FEEDER TENDRILS[/b] keyword, and adding 2 if the destroyed model has the [b]CHARACTER[/b] keyword: on a 6+, you gain 1 Command point (to a maximum of 1 Command point per battle round).\n\nAt the end of the battle:\n- Score 3 victory points if you gained 1 or more Command points during the battle due to this objective.\n- Score 1 victory point for each enemy [b]CHARACTER[/b] model and each enemy unit champion that was destroyed by a melee attack made by a [b]HIVE TENDRIL[/b] model from your army.\n- Score 3 victory points if the enemy [b]WARLORD[/b] was destroyed by a melee attack made by a [b]HIVE TENDRIL[/b] model from your army."
 						}
 					]
 				}
