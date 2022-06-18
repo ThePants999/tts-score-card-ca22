@@ -79,7 +79,7 @@
 						{
 							"id": "EW.03.04.01",
 							"name": "Ancient Machineries",
-							"description": "[i]Progressive Objective[/i]\nIf you selected this secondary objective, then after both sides have finished deploying, starting with your opponent, the players alternate selecting objective markers that are not within any player’s deployment zone to be Ancient Machinery objective markers, until three objective markers have been selected (if there are only one or two such objective markers, then only those objective markers are Ancient Machinery objective markers). Score 3 victory points each time a NECRONS CORE or NECRONS CANOPTEK units from your army completes the Awaken Ancient Machinery action.",
+							"description": "[i]Progressive Objective[/i]\nIf you selected this secondary objective, then after both sides have finished deploying, starting with your opponent, the players alternate selecting objective markers that are not within any player's deployment zone to be Ancient Machinery objective markers, until three objective markers have been selected (if there are only one or two such objective markers, then only those objective markers are Ancient Machinery objective markers). Score 3 victory points each time a NECRONS CORE or NECRONS CANOPTEK units from your army completes the Awaken Ancient Machinery action.",
 							"actions": [
 								{
 									"id": "EW.03.04.01a",
@@ -122,7 +122,7 @@
 						{
 							"id": "EW.04.03.01",
 							"name": "Suffer not the Alien",
-							"description": "[i]End Game Objective[/i]\nScore 1 victory point at the end of the battle for each enemy TYRANIDS, AELDARI, ORK, NECRONS and T’AU EMPIRE unit destroyed by a DEATHWATCH unit from your army during the battle."
+							"description": "[i]End Game Objective[/i]\nScore 1 victory point at the end of the battle for each enemy TYRANIDS, AELDARI, ORK, NECRONS and T'AU EMPIRE unit destroyed by a DEATHWATCH unit from your army during the battle."
 						}
 					]
 				},
@@ -175,7 +175,7 @@
 						{
 							"id": "EW.05.03.01",
 							"name": "A Mighty Saga",
-							"description": "[i]Progressive Objective[/i]\nIf you select this objective, you score 2 victory points at the end of each battle round for each of the following achieved by your SPACE WOLVES WARLORD, for a maximum of 5 victory points:\n-An enemy MONSTER or VEHICLE unit loses any wounds as the result of a melee attack made by this Warlord.\n- An enemy MONSTER or VEHICLE unit is destroyed as the result of a melee attack made by this Warlord.\n- An enemy CHARACTER is destroyed as the result of a melee attack made by this Warlord.\n- 5 or more models were destroyed as the result of attacks made by this Warlord.\n- At the start of your Command phase, this WARLORD is within range of an objective marker that is wholly within your opponent’s deployment zone."
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, you score 2 victory points at the end of each battle round for each of the following achieved by your SPACE WOLVES WARLORD, for a maximum of 5 victory points:\n-An enemy MONSTER or VEHICLE unit loses any wounds as the result of a melee attack made by this Warlord.\n- An enemy MONSTER or VEHICLE unit is destroyed as the result of a melee attack made by this Warlord.\n- An enemy CHARACTER is destroyed as the result of a melee attack made by this Warlord.\n- 5 or more models were destroyed as the result of attacks made by this Warlord.\n- At the start of your Command phase, this WARLORD is within range of an objective marker that is wholly within your opponent's deployment zone."
 						}
 					]
 				},
@@ -735,7 +735,44 @@
 						{
 							"id": "EW.18.01.01",
 							"name": "Yield No Ground",
-							"description": "[i]Progressive Objective[/i]\nIf you select this objective, at the end of your turn, you score victory points as follows (for a maximum of 5 victory points):\n- Score 2 victory points if you control half or more of the total number of objective markers on the battlefield, and one or more [b]IMPERIAL KNIGHTS[/b] models from your army are within range of each of those objective markers.\n- Score 2 victory points if no enemy units (excluding [b]AIRCRAFT[/b] units) are wholly within your deployment zone.\n- Score 1 victory point so long as no [b]IMPERIAL KNIGHTS[/b] models from your army ended that turn closer to your battlefield edge than they started the turn, and no [b]IMPERIAL KNIGHTS[/b] units from your army Fell Back during that turn.\n\nThis secondary objective cannot be scored in the first battle round."
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, at the end of your turn, you score victory points as follows (for a maximum of 5 victory points):\n\n- Score 2 victory points if you control half or more of the total number of objective markers on the battlefield, and one or more [b]IMPERIAL KNIGHTS[/b] models from your army are within range of each of those objective markers.\n- Score 2 victory points if no enemy units (excluding [b]AIRCRAFT[/b] units) are wholly within your deployment zone.\n- Score 1 victory point so long as no [b]IMPERIAL KNIGHTS[/b] units from your army ended that turn closer to your battlefield edge than they started the turn, and no [b]IMPERIAL KNIGHTS[/b] units from your army Fell Back during that turn.\n\nThis secondary objective cannot be scored in the first battle round."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "EW.18.02.01",
+							"name": "Honour of the House",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, at the end of each battle round, if you have 6 Honour Points or if you have more Honour Points than you did at the start of the battle round, gain 2 victory points.\n\nAt the end of the battle:\n- If your army is Virtuous, gain 3 additional victory points.\n- If your army is Honoured, gain 2 additional victory points.\n- If your army is Dishonoured, reduce the number of victory points you have earned from this secondary objective by 3 (to a minimum of 0)."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "EW.18.03.01",
+							"name": "Duel of Honour",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle, after you have deployed armies, you must identify your opponent's [b]WARLORD[/b], and the two units from your opponent's army that have the highest points value (excluding your opponent's [b]WARLORD[/b]), and make a note of them on your army roster (if two or more units are tied, your opponent can choose between them). If your opponent's army has three or fewer units, then you instead identify all the units in your opponent's army. A unit's points cost includes the points of all weapons and wargear it is equipped with.\n\nAt the end of the battle, for each identified enemy unit that is destroyed, you score a number of victory points if that unit was destroyed during the battle by an [b]IMPERIAL KNIGHTS[/b] unit from your army. The number of victory points scored depends on how the enemy unit was destroyed.\n\n- [b]Honour to the King - 5VP:[/b] The unit was destroyed by a melee attack made by your [b]WARLORD[/b].\n- [b]Personal Combat - 4VP:[/b] The unit was destroyed by a melee attack made by any other [b]IMPERIAL KNIGHTS[/b] model from your army.\n- [b]Cowardly Cur - 4VP:[/b] The unit was destroyed because it was not on the battlefield at the end of the battle and so counted as destroyed (note, this does not apply if the enemy unit is embarked in a [b]TRANSPORT[/b] that is itself on the battlefield at the end of the battle).\n- [b]Inglorious Demise - 3VP:[/b] The enemy unit was destroyed by any other means.\n\nAt the end of any battle round in which Honour to the King or Personal Combat was achieved, you gain 1 Honour point.\n\nAt the end of the battle, if the enemy's [b]WARLORD[/b] has been destroyed, you gain 1 additional victory point, but you must reduce the number of victory points you have earned from this secondary objective by 1 (to a minimum of 0) for each of the identified units that has not been destroyed.\n\nFor example, if the enemy [b]WARLORD[/b] was destroyed by a melee attack made by your [b]WARLORD[/b], one of the other identified units was destroyed by a ranged attack made by a model in your army, and the third identified unit was still on the battlefield at the end of the battle, you would score 8 victory points from this secondary objective."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "EW.18.04.01",
+							"name": "Renew the Oaths",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then [b]IMPERIAL KNIGHTS[/b] units from your army can attempt the Renew the Oaths action.\n\nEach time a unit from your army completes this action:\n- You score 3 victory points if the action was completed by a non-[b]TITANIC[/b] model.\n- You score 4 victory points if the action was completed by a [b]TITANIC[/b] model.\n- You score 1 additional victory point if the action was completed by a [b]CHARACTER[/b] model.\n- You must roll one D6: on a 4+, you gain 1 Honour point.",
+							"actions": [
+								{
+									"id": "EW.18.04.01a",
+									"name": "Renew the Oaths (Action)",
+									"description": "[i]Action[/i]\nOne [b]IMPERIAL KNIGHTS[/b] model from your army can start to perform this action at the end of your Movement phase if it is within 6\" of the centre of the battlefield. This action is completed at the end of your turn provided the unit attempting it is still within 6\" of the centre of the battlefield."
+								}
+							]
 						}
 					]
 				}
@@ -762,12 +799,49 @@
 			"name": "Chaos Knights",
 			"categories": [
 				{
-					"name": "No Mercy, No Respite",
+					"name": "Battlefield Supremacy",
 					"objectives": [
 						{
 							"id": "EW.20.01.01",
+							"name": "Ruthless Tyranny",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, at the end of your turn, you score victory points as follows (for a maximum of 4 victory points):\n- Score 2 victory points if you control half or more of the total number of objective markers on the battlefield and one or more [b]CHAOS KNIGHTS[/b] models from your army are within range of each of those objective markers.\n- Score 1 victory point if half or more of the total number of objective markers on the battlefield are within Dread range of one or more [b]CHAOS KNIGHTS[/b] models from your army.\n- Score 1 victory point if every objective marker on the battlefield is within Dread range of one or more [b]CHAOS KNIGHTS[/b] models from your army."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "EW.20.02.01",
 							"name": "Path of Destruction",
 							"description": "[i]Progressive Objective[/i]\nScore 1 victory point at the end of the battle round for each of the following conditions that were satisfied during that battle round (for a maximum of 3 victory points):\n- One or more enemy units were destroyed by a [b]CHAOS KNIGHTS[/b] model from your army while that [b]CHAOS KNIGHTS[/b] model was wholly within your deployment zone.\n- One or more enemy units were destroyed by a [b]CHAOS KNIGHTS[/b] model from your army while that [b]CHAOS KNIGHTS[/b] model was more than 3\" away from either player's deployment zone.\n- One or more enemy units were destroyed by a [b]CHAOS KNIGHTS[/b] model from your army while that [b]CHAOS KNIGHTS[/b] model was wholly within your opponent's deployment zone."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "EW.20.03.01",
+							"name": "A Fitting Challenge",
+							"description": "[i]Progressive and End Game Objective[/i]\nIf you select this objective, then before the battle, after you have selected deployment zones, you must identify which three units from your opponent's army have the highest points value, and make a note of them (if two or more units are tied, your opponent can choose between them). If your opponent's army has three or fewer units, then you instead identify all the units in your opponent's army. A unit's points cost includes the points of all weapons and wargear it is equipped with. If a unit splits into several smaller units during the battle, all of those separate units must be destroyed for the original unit to count as being destroyed for the purposes of this objective.\n\nAt the end of each battle round, you score a number of victory points for each identified unit that was destroyed during the battle by a [b]CHAOS KNIGHTS[/b] unit from your army (to a maximum of 6 victory points per battle round). The number of victory points scored depends on the battle round during which each unit was destroyed, as shown in the table below.\n\n- Battle round 1: 6VP\n- Battle round 2: 5VP\n- Battle round 3: 4VP\n- Battle round 4: 3VP\n- Battle round 5: 2VP\n\nAt the end of the battle, reduce the number of victory points you have earned from this secondary objective by 1 (to a minimum of 0) for each of the identified units that has not been destroyed. If a unit was destroyed, but was then resurrected or otherwise returned to the battlefield and subsequently destroyed again, then for the purposes of this secondary objective it was destroyed during the battle round in which it was last removed from the battlefield."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "EW.20.04.01",
+							"name": "Storm of Darkness",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then [b]CHAOS KNIGHTS[/b] units from your army can attempt the Storm of Darkness action.\n\nScore 3 victory points each time a unit from your army completes the Storm of Darkness action.",
+							"actions": [
+								{
+									"id": "EW.20.04.01a",
+									"name": "Storm of Darkness (Action)",
+									"description": "[i]Action[/i]\nStorm of Darkness (Action): One [b]CHAOS KNIGHTS[/b] unit from your army can start to perform this action at the end of the Morale phase if it is in range of an objective marker that has not already been cursed by your army. A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b] units) in range of the same objective marker. The action is completed at the end of your next Psychic phase, provided the unit performing it is still within range of the same objective marker. If completed, that objective marker is said to have been cursed by your army, and until the end of the battle, whilst a non-[b]CHAOS[/b] unit is within 6\" of that objective marker, subtract 1 from the Leadership characteristic of models in that unit."
+								}
+							]
 						}
 					]
 				}
@@ -830,7 +904,7 @@
 								{
 									"id": "EW.23.02.01a",
 									"name": "Seed Spore Node (Action)",
-									"description": "[i]Action[/i]\nOne Troops unit from your army can start to perform this action at the end of your Movement phase from the second battle round onwards if it is within 6\" of your opponent’s deployment zone and not within 6\" of any Spore Node objective markers. The action is completed at the end of your turn. If this action is successfully completed, place one objective marker anywhere wholly within your opponent’s deployment zone and within 1\" of the unit that completed this action. This objective marker represents a Spore Node, but does not count as an objective marker for any rules purposes other than for this secondary objective."
+									"description": "[i]Action[/i]\nOne Troops unit from your army can start to perform this action at the end of your Movement phase from the second battle round onwards if it is within 6\" of your opponent's deployment zone and not within 6\" of any Spore Node objective markers. The action is completed at the end of your turn. If this action is successfully completed, place one objective marker anywhere wholly within your opponent's deployment zone and within 1\" of the unit that completed this action. This objective marker represents a Spore Node, but does not count as an objective marker for any rules purposes other than for this secondary objective."
 								}
 							]
 						}
