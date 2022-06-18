@@ -32,7 +32,7 @@
 					"objectives": [
 						{
 							"id": "EW.02.03.01",
-							"name": "Oath of Moment",
+							"name": "Oaths of Moment",
 							"description": "[i]Progressive Objective[/i]\nScore victory points at the end of each battle round for achieving the following three Oaths:\n- Oath of Valour: Score 1 victory point if any CHARACTER, VEHICLE or MONSTER unit was destroyed by an ADEPTUS ASTARTES unit from your army during that battle round.\n- Oath of Honour: Score 1 victory point at the end of the battle round so long as no ADEPTUS ASTARTES units from your army failed a Morale test, and provided no ADEPTUS ASTARTES units from your army Fell Back during that battle round.\n- Oath of Duty: Score 2 victory points at the end of the battle round if an ADEPTUS ASTARTES unit from your army is wholly within 6\" of the centre of the battlefield."
 						}
 					]
