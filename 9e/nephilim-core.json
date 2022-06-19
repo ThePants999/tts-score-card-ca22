@@ -162,7 +162,7 @@
 						{
 							"id": "GT22.02.04.01",
 							"name": "Assassination",
-							"description": "[i]End Game Objective[/i]\nScore 3 victory points at the end of the battle for each enemy [b]CHARACTER[/b] model that is destroyed. At the end of the battle, if the enemy [b]WARLORD[/b] is destroyed, score 1 additional victory point."
+							"description": "[i]End Game Objective[/i]\nScore 3 victory points at the end of the battle for each enemy [b]CHARACTER[/b] unit that is destroyed. At the end of the battle, if the enemy [b]WARLORD[/b] is destroyed, score 1 additional victory point."
 						},
 						{
 							"id": "GT22.02.04.02",
