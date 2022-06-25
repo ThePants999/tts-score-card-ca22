@@ -333,12 +333,12 @@
 						{
 							"id": "GT22.10.02.01",
 							"name": "Sacred Grounds",
-							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then [b]ADEPTA SORORITAS INFANTRY[/b] and [b]CULT IMPERIALIS PRIEST[/b] units from your army can attempt the following action. Each time a unit from your army completes the Sacred Grounds action, if the objective marker that was consecrated by that action was wholly in your own deployment zone, score 1 victory point; otherwise, score 4 victory points.",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then [b]ADEPTA SORORITAS INFANTRY[/b] and [b]CULT IMPERIALIS PRIEST[/b] units from your army can attempt the following action. Each time a unit from your army completes this action, if the objective marker that was consecrated by that action was wholly within your deployment zone, score 1 victory point; otherwise, score 5 victory points.",
 							"actions": [
 								{
 									"id": "GT22.10.02.01a",
 									"name": "Sacred Grounds (Action)",
-									"description": "[i]Action[/i]\nOne [b]ADEPTA SORORITAS INFANTRY[/b] or [b]CULT IMPERIALIS PRIEST[/b] unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker that has not already been consecrated by your army. A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b] units) in range of the same objective marker. The action is completed at the start of your next Command phase or at the end of the battle, whichever comes first, provided the unit performing it is still within range of the same objective marker. If completed, that objective marker is said to have been consecrated by your army, and until the end of the battle, that objective marker gains the Inspiring ([b]ADEPTUS MINISTORUM[/b]) terrain trait (see the Warhammer 40,000 Core Book) as if it were a terrain feature (it is not considered a terrain feature for any other purposes)."
+									"description": "[i]Action[/i]\nOne or more [b]ADEPTA SORORITAS INFANTRY[/b] or [b]CULT IMPERIALIS PRIEST[/b] units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this this action must be within range of a different objective marker you control that has not been consecrated by your army (see below). The action is completed at the start of your next Command phase or at the end of the battle (whichever comes first). If completed, that objective marker is said to have been consecrated by your army, and until the end of the battle, that objective marker gains the Inspiring ([b]ADEPTUS MINISTORUM[/b]) terrain trait (it is not considered a terrain feature for any other rules purposes)."
 								}
 							]
 						}
