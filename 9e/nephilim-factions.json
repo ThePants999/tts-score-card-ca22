@@ -990,7 +990,7 @@
 					"objectives": [
 						{
 							"id": "GT22.30.02.01",
-							"name": "The Ancestors Are Watching",
+							"name": "Ancestors Are Watching",
 							"description": "[i]Progressive Objective[/i]\nAt the end of each phase, score 2 victory points if one or more enemy units that had 1 or more Judgment tokens was destroyed by a [b]VOTANN[/b] unit from your army during that phase. Score an additional 1 victory point for each of those enemy units that had 3 or more Judgment tokens when it was destroyed. At the end of the battle, reduce the number of victory points you have earned from this secondary objective by 1 (to a minimum of 0) for each unit that is on the battlefield (or that is embarked on a [b]TRANSPORT[/b] that is itself on the battlefield) that has 1 or more Judgment tokens."
 						}
 					]
