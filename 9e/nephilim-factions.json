@@ -972,6 +972,59 @@
 			]
 		},
 		{
+			"faction": "LEAGUES OF VOTANN",
+			"name": "Leagues of Votann",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.30.01.01",
+							"name": "Lay Claim",
+							"description": "[i]End Game Objective[/i]\nIf you selected this secondary objective, then during the Resolve Pre-battle Abilities step, your opponent must set up 3 objective markers anywhere on the ground level of the battlefield that is not within 6\" of their own deployment zone or any battlefield edge, and not within 9\" of each other. They cannot be set up on terrain features with the Unstable Position terrain trait. If it is impossible to set up an objective marker, it is not set up. Each represents Precious Resources, but does not count as an objective marker for any rules purposes other than for this secondary objective.\n\nAt the end of the battle, you score 5 victory points for each of your Precious Resources objective markers that you control."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.30.02.01",
+							"name": "The Ancestors Are Watching",
+							"description": "[i]Progressive Objective[/i]\nAt the end of each phase, score 2 victory points if one or more enemy units that had 1 or more Judgment tokens was destroyed by a [b]VOTANN[/b] unit from your army during that phase. Score an additional 1 victory point for each of those enemy units that had 3 or more Judgment tokens when it was destroyed. At the end of the battle, reduce the number of victory points you have earned from this secondary objective by 1 (to a minimum of 0) for each unit that is on the battlefield (or that is embarked on a [b]TRANSPORT[/b] that is itself on the battlefield) that has 1 or more Judgment tokens."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.30.03.01",
+							"name": "Prospects of Wealth",
+							"description": "[i]Progressive and End Game Objective[/i]\nIf you select this objective, then [b]VOTANN INFANTRY[/b] and [b]VOTANN BIKER[/b] units from your army can attempt the Prospect action.\n\nEach time a unit from your army completes this action, you score 3 victory points. At the end of the battle, if you control one or more Rich Deposits markers, you score an additional 3 victory points.",
+							"actions": [
+								{
+									"id": "GT22.30.03.01a",
+									"name": "Prospect (Action)",
+									"description": "[i]Action[/i]\nOne [b]VOTANN INFANTRY[/b] or [b]VOTANN BIKER[/b] unit from your army can start to perform this action at the end of your Movement phase if it is in range of an objective marker that is not within your deployment zone and has not already been prospected by your army. A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b] units) in range of the same objective marker. The action is completed at the end of the turn. If completed, that objective marker is said to have been prospected by your army and you must roll one D6, adding 1 to the result if the unit that completed the action has the [b]SCANNER[/b] keyword: on a 6+, that objective marker is a Rich Deposits objective marker."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.30.04.01",
+							"name": "Grudge Match",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle, you must identify five units from your opponent's army, one of which must be the enemy's [b]WARLORD[/b], and make a note of them on your army roster. If your opponent's army has five or fewer units, then you instead identify all the units in your opponent's army.\n\nAt the end of the battle, for each of the identified units that was destroyed by a [b]VOTANN[/b] unit from your army, you score 1 victory point. If that unit had a points value of 150 or more, you score 1 additional victory point, and/or if that unit was destroyed by a melee attack, you score 1 additional victory point (for a maximum of 3 victory points per unit). A unit's points value includes the points of all weapons, other wargear and upgrades it has.\n\nAt the end of the battle, reduce the number of victory points you have earned from this secondary objective by 1 (to a minimum of 0) for each of the identified units that has not been destroyed. If a unit splits into several smaller units during a battle, all of those separate units (excluding [b]DRONE[/b] units) must be destroyed at the end of the battle for the unit to be counted as being destroyed for the purposes of this objective."
+						}
+					]
+				}
+			]
+		},
+		{
 			"faction": "DEATH GUARD",
 			"name": "Death Guard",
 			"categories": [
