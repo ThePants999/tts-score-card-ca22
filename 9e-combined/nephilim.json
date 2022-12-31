@@ -1,0 +1,1574 @@
+{
+	"name": "GT: Nephilim",
+	"missions": [
+		{
+			"name": "Recover The Relics",
+			"primary": "Take and Hold",
+			"mission": "[b]BREAK THEM, BODY AND SOUL[/b]\n[b]Progressive Objective[/b]\nAt the end of each battle round, each player scores 1 victory point for each enemy unit that was destroyed during that battle round (to a maximum of 3 victory points per player per battle round). A unit can, if it is destroyed and resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially count as having been destroyed several times for the purposes of this primary objective (assuming it is resurrected and subsequently destroyed several times over during the same battle round)."
+		},
+		{
+			"name": "Tear Down Their Icons",
+			"primary": "Take and Hold",
+			"mission": "[b]DETONATION[/b]\n[b]End Game Objective[/b]\nAt the end of the battle, each player scores 4 victory points for each Primed Explosives objective marker that is within their opponent's territory (to a maximum of 15 victory points per player).\n\n[b]Prime Explosives (Action):[/b] One unit from your army can start to perform this action at the end of your Movement phase if it is wholly within your opponent's territory and it is more than 9\" away from any Primed Explosives objective markers (see below). If the unit performing this action has the Objective Secured ability (see the Warhammer 40,000 Core Book) or a similar rule, this action is completed at the end of your turn; otherwise, it is completed at the end of your next Command phase. If this action is successfully completed, set up 1 Primed Explosives objective marker on the battlefield that is wholly within your opponent's territory and wholly within 3\" of the unit that completed this action - this represents a cache of Primed Explosives, but does not count as an objective marker for any rules purposes other than for the Defuse Explosives action and the Detonation primary objective.\n\n[b]Defuse Explosives (Action):[/b]One unit from your army can start to perform this action at the end of your Movement phase if it is within range of a Primed Explosives objective marker within your own territory and no enemy units (excluding [b]AIRCRAFT[/b]) are within range of the same Primed Explosives objective marker. This action is completed at the end of your turn provided the unit attempting it is still within range of the same Primed Explosives objective marker. If this action is successfully completed, roll one D6 and add 3 to the result if the unit that performed this action has the Objective Secured ability or a similar rule: on a 4+, remove that Primed Explosives objective marker from the battlefield."
+		},
+		{
+			"name": "Data Scry-Salvage",
+			"primary": "Domination",
+			"mission": "[b]DATA INTERCEPT[/b]\n[b]Progressive Objective[/b]\nEach time a unit from your army successfully completes the Data Intercept action, you score a number of victory points equal to the number of objective markers you currently control that are in no man's land, to a maximum of 3 victory points per action.\n\n[b]Data Intercept (Action):[/b] One unit from your army can start to perform this action at the end of your Movement phase if it is within range of the objective marker within its own deployment zone and no enemy units (excluding [b]AIRCRAFT[/b]) are within range of that objective marker. This action is completed at the end of your turn, provided the unit attempting it is still within range of that objective marker."
+		},
+		{
+			"name": "Abandoned Sanctuaries",
+			"primary": "Take and Hold",
+			"mission": "[b]SECURE THE SANCTUARIES[/b]\n[b]Progressive and End Game Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 2 victory points if they satisfy at least one of the following conditions:\n- They control the objective marker in the centre of the battlefield.\n- They destroyed at least one enemy unit that was within 6\" of the centre of the battlefield at the start of their turn.\n\nAt the end of the battle, whichever player controls the objective marker in the centre of the battlefield scores 5 victory points."
+		},
+		{
+			"name": "Conversion",
+			"primary": "Take and Hold",
+			"mission": "[b]CORRUPTED GROUND[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is:\n- Scores 4 victory points if they control the objective marker in their opponent's deployment zone.\n- Scores 2 victory points if they control one or more objective markers that are in no man's land.\n- Loses 1 victory point if they do not control the objective marker in their own deployment zone.\n\nA player's victory point score can never be reduced to less than 0."
+		},
+		{
+			"name": "The Scouring",
+			"primary": "Take and Hold",
+			"mission": "[b]STRATEGIC SCAN[/b]\n[b]End Game Objective[/b]\nAt the end of the battle, each player scores 3 victory points for each objective marker on the battlefield that has been scanned by their army.\n\n[b]Auspex Scan (Action):[/b] One unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker that has not been scanned by a unit from your army (see below). A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b] units) in range of the same objective marker. This action is completed at the start of your next Command phase, or at the end of the battle (whichever happens first), provided the unit attempting it is still in range of the same objective marker. If this action is successfully completed, that objective marker is said to have been scanned by your army."
+		},
+		{
+			"name": "Tide Of Conviction",
+			"primary": "Domination",
+			"mission": "[b]OVERRUN[/b]\n[b]Progressive and End Game Objective[/b]\nAt the end of each player's first, second, third and fourth turn, the player whose turn it is scores 2 victory points if they control at least one objective marker in their opponent's territory.\n\nAt the end of the battle, each player scores 4 victory points if they control the objective marker in their opponent's deployment zone, and 2 victory points for each other objective marker that they control that is in their opponent's territory (for a maximum of 8 victory points per player)."
+		},
+		{
+			"name": "Death And Zeal",
+			"primary": "Take and Hold",
+			"mission": "[b]DIRECT ASSAULT[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 2 victory points if they satisfy one of the following conditions, or 3 victory points if they satisfy both of the following conditions:\n- They control every objective marker on the battlefield or they control at least one objective marker that they did not control at the start of their turn.\n- They destroyed at least one enemy unit that was in range of an objective marker at the start of their turn."
+		},
+		{
+			"name": "Secure Missing Artifacts",
+			"primary": "Take and Hold",
+			"mission": "[b]PRECIOUS ARTEFACTS[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 3 victory points if they control the Priority objective marker that is in their own territory."
+		},
+		{
+			"name": "Cleanse The Land",
+			"primary": "Take and Hold",
+			"mission": "[b]DIRECT ASSAULT[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 2 victory points if they satisfy one of the following conditions, or 3 victory points if they satisfy both of the following conditions:\n- They control every objective marker on the battlefield or they control at least one objective marker that they did not control at the start of their turn.\n- They destroyed at least one enemy unit that was in range of an objective marker at the start of their turn."
+		},
+		{
+			"name": "Deliverance",
+			"primary": "Take and Hold",
+			"mission": "[b]SECURE LANDING SITES[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores a number of victory points for each objective marker that they control that is in no man's land, as shown below (note that the victory points scored changes depending on the battle round number):\n\n- Battle round 3: 2VP per objective\n- Battle round 4: 3VP per objective\n- Battle round 5: 4VP per objective\n\nThis primary objective cannot be scored in the first or second battle rounds."
+		},
+		{
+			"name": "Desperate Raid",
+			"primary": "Take and Hold",
+			"mission": "[b]RAID SUPPLY LINES[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 3 victory points if they control at least one of the objective markers that is in their opponent's deployment zone."
+		},
+		{
+			"name": "Sacred Ground",
+			"primary": "Take and Hold",
+			"mission": "[b]WISDOM IS THE CORNERSTONE OF FAITH[/b]\n[b]Progressive Objective[/b]\nAt the end of player A's turn, that player:\n- Scores 2 victory points if they control objective marker B\n- Loses 1 victory point if they do not control objective marker A\n- Scores 1 victory point for each other objective marker that they control.\n\nAt the end of player B's turn, that player:\n- Scores 2 victory points if they control objective marker A\n- Loses 1 victory point if they do not control objective marker B\n- Scores 1 victory point for each other objective marker that they control.\n\nNeither player's victory points score can ever be reduced to less than 0."
+		},
+		{
+			"name": "Ascension",
+			"primary": "Take and Hold",
+			"mission": "[b]ASCEND[/b]\n[b]Progressive and End Game Objective[/b]\nAt the end of each player's turn, the player whose turn it is scores 2 victory points if they satisfy at least one of the following conditions:\n- They control the objective marker in the centre of the battlefield.\n- They destroyed at least one enemy unit that was within 6\" of the centre of the battlefield at the start of their turn.\n\nAt the end of the battle, each player scores 3 victory points for each of the following conditions that they satisfy (for a maximum of 6 victory point per player):\n- Their [b]WARLORD[/b] is within range of the objective marker in the centre of the battlefield.\n- Their opponent's [b]WARLORD[/b] is destroyed."
+		},
+		{
+			"name": "Surge of Faith",
+			"primary": "Take and Hold",
+			"mission": "[b]SURGE OF FAITH[/b]\n[b]Progressive Objective[/b]\nEach time a unit from your army successfully completes the Surge of Faith action, you score a number of victory points depending on which objective marker this action was performed on, as follows:\n\n- Objective marker A: 4 points for player B.\n- Marker B: 2 points for player A, 3 points for player B.\n- Objective marker C: 3 points for player A, 2 points for player B.\n-b Objective marker D: 4 points for player A."
+		},
+		{
+			"name": "Rise of the Machine Spirit",
+			"primary": "Take and Hold",
+			"mission": "[b]INLOAD DATA-PSALM[/b]\n[b]Progressive Objective[/b]\nAt the end of each player's turn, if one or more units from that player's army successfully completed the Inload Data-psalm action during this turn, that player scores 1 victory point for each objective marker that they currently control (to a maximum of 3 victory points per player per turn)."
+		},
+		{
+			"name": "Display of Spiritual Might",
+			"primary": "Take and Hold",
+			"mission": "[b]BREAK THEM, BODY AND SOUL[/b]\n[b]Progressive Objective[/b]\nAt the end of each battle round, each player scores 1 victory point for each enemy unit that was destroyed during that battle round (to a maximum of 3 victory points per player per battle round). A unit can, if it is destroyed and resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially count as having been destroyed several times for the purposes of this primary objective (assuming it is resurrected and subsequently destroyed several times over during the same battle round)\r\n\r\n\r\n"
+		},
+		{
+			"name": "Reconnaissance Mission",
+			"primary": "Take and Hold",
+			"mission": "[b]RECON SWEEP[/b]\n[b]End Game Objective[/b]\nAt the end of the battle, each player scores a number of victory points for the total number of objective markers on the battlefield that have been reconnoitred by their army, as shown in the following table:\n\n- 1 objective marker reconnoitred by your army: 3 victory points\n- 2 objective markers: 6 points\n- 3 objective markers: 10 points\n- 4 objective markets: 15 points"
+		}
+	],
+	"factions": [
+		{
+			"name": "Generic",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.02.01.01",
+							"name": "Engage on All Fronts",
+							"description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn if you have one or more qualifying units (see below) from your army wholly within three different table quarters, and those units are all more than 6\" from any other table quarter. Score 3 victory points instead if you have one or more qualifying units from your army wholly within each table quarter, and those units are all more than 6\" from any other table quarter. A qualifying unit is one that has a Starting Strength of 3 or more models, or one that contains 1 or more [b]VEHICLE[/b] or [b]MONSTER[/b] models (excluding [b]AIRCRAFT[/b] models)."
+						},
+						{
+							"id": "GT22.02.01.02",
+							"name": "Behind Enemy Lines",
+							"description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn if one unit from your army (excluding [b]AIRCRAFT[/b] units) is wholly within your opponent’s deployment zone. Score 4 victory points at the end of your turn instead if two or more units from your army (excluding [b]AIRCRAFT[/b] units) are wholly within your opponent’s deployment zone."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.02.02.01",
+							"name": "No Prisoners",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a Kill Points tally. Each time an enemy model is destroyed (excluding [b]VEHICLE[/b], [b]MONSTER[/b] or [b]CHARACTER[/b] models), add a number of marks to this tally equal to the Wounds characteristic of the destroyed model. At the end of the battle, divide your Kill Points tally by 10 and round down - the result is the number of victory points you score. In addition, if your Kill Points tally is between 50 and 99, you score 1 additional victory point, and if your Kill Points tally is 100 or more, you score 2 additional victory points."
+						},
+						{
+							"id": "GT22.02.02.02",
+							"name": "Grind Them Down",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of the battle round if more enemy units than friendly units were destroyed this battle round."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.02.03.01",
+							"name": "Raise the Banners High",
+							"description": "[i]Progressive and End Game Objective[/i]\nIf you select this objective, then units in your army can perform the following action. You score 1 victory point at the end of each of your Command phases, and 1 victory point at the end of the battle, for each objective marker on the battlefield that has one of your banners raised upon it.",
+							"actions": [
+								{
+									"id": "GT22.02.03.01a",
+									"name": "Raise Banners (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]INFANTRY[/b] units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be within range of a different objective marker you control that does not have one of your banners raised upon it (see below). The action is completed at the end of your turn. If completed, that objective marker is said to have one of your army’s banners raised on it (the banner is ‘removed’ if your opponent controls the objective marker at the start of the Command Phase)."
+								}
+							]
+						},
+						{
+							"id": "GT22.02.03.02",
+							"name": "Retrieve Nephilim Data",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep Retrieved Data tally. In addition, units in your army can perform the following action.\n\nAt the end of the battle, score 4 victory points if your Retrieved Data tally is 2, score 8 victory points if your tally is 3, or score 12 victory points if your tally is 4.",
+							"actions": [
+								{
+									"id": "GT22.02.03.03a",
+									"name": "Retrieve Data (Action)",
+									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] or [b]BIKER[/b] unit can start to perform this action at the end of your Movement phase if it is wholly within a table quarter that has not had a servo-skull retrieved by your army (see below) and it is more than 6” away from any other table quarter. This action is completed at the end of your turn provided the unit attempting it is still within the same table quarter. If this action is successfully completed, roll one D6, subtracting 1 from the result if the unit that completed the action has the Troops battlefield role; if the result is less than or equal to the number of models currently in that unit, that table quarter is said to have had a servo-skull retrieved by your army and you add 1 to your Retrieved Data tally."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.02.04.01",
+							"name": "Assassination",
+							"description": "[i]End Game Objective[/i]\nScore 3 victory points at the end of the battle for each enemy [b]CHARACTER[/b] unit that is destroyed. At the end of the battle, if the enemy [b]WARLORD[/b] is destroyed, score 1 additional victory point."
+						},
+						{
+							"id": "GT22.02.04.02",
+							"name": "Bring it Down",
+							"description": "[i]End Game Objective[/i]\nAt the end of the battle, score victory points for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model that is destroyed, as follows:\n- Score 1 victory point for each of those destroyed models with a Wounds characteristic of 9 or less\n- Score 2 victory points for each of those destroyed models with a Wounds characteristic of 10-14\n- Score 3 victory points for each of those destroyed models with a Wounds characteristic of 15-19\n- Score 4 victory points for each of those destroyed models with a Wounds characteristic of 20 or more"
+						}
+					]
+				},
+				{
+					"name": "Warpcraft",
+					"objectives": [
+						{
+							"id": "GT22.02.05.01",
+							"name": "Abhor the Witch",
+							"description": "[i]End Game Objective[/i]\nYou cannot select this secondary objective if your army includes any [b]PSYKER[/b] units. Score 3 victory points at the end of the battle for each enemy [b]PSYKER CHARACTER[/b] unit that is destroyed, and 2 victory points for every other enemy [b]PSYKER[/b] unit that is destroyed."
+						},
+						{
+							"id": "GT22.02.05.02",
+							"name": "Warp Ritual",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a Ritual Points tally; add 1 to that tally each time a unit from your army successfully completes the following psychic action during the battle. At the end of the battle, score 3 victory points if your Ritual tally is 1, score 7 victory points if your tally is 2, or score 12 victory points if your tally is 3 or more.",
+							"actions": [
+								{
+									"id": "GT22.02.05.02a",
+									"name": "Warp Ritual (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 3[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 6” of the centre of the battlefield."
+								}
+							]
+						},
+						{
+							"id": "GT22.02.05.03",
+							"name": "Psychic Interrogation",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time you successfully complete the following psychic action. In addition, if the result of the Psychic test is equal to or greater than the Leadership characteristic of any enemy [b]CHARACTER[/b] models within 24\" of the [b]PSYKER[/b] unit that completed this psychic action, you gain 1 Command Point at the end of the phase.",
+							"actions": [
+								{
+									"id": "GT22.02.05.04a",
+									"name": "Psychic Interrogation (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 24” of any enemy [b]CHARACTER[/b] models."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "SPACE MARINES",
+			"name": "Space Marines",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.03.01.01",
+							"name": "Codex Warfare",
+							"description": "[i]End Game Objective[/i]\nAt the end of the battle, score victory points as follows:\n- Score 2 victory points (to a maximum of 5 victory points) for each enemy unit that was destroyed as the result of an attack made with a Heavy or Grenade weapon by an [b]ADEPTUS ASTARTES[/b] unit from your army while the Devastator Doctrine was active for your army.\n- Score 1 victory point (to a maximum of 5 victory points) for each enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an [b]ADEPTUS ASTARTES[/b] unit from your army while the Tactical Doctrine was active for your army.\n- Score 1 victory point (to a maximum of 5 victory points) for each enemy unit that was destroyed as the result of an attack made with a Pistol or Melee weapon by an [b]ADEPTUS ASTARTES[/b] unit from your army while the Assault Doctrine was active for your army."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.03.02.01",
+							"name": "Shock Tactics",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 4 Victory Points if you control one or more objective markers that were controlled by your opponent at the start of the turn, and if an [b]ADEPTUS ASTARTES[/b] unit from your army is in range of that objective marker."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.03.03.01",
+							"name": "Oaths of Moment",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round, score victory points for achieving the following three Oaths:\n\n- Oath of Valour: Score 1 victory point if any [b]CHARACTER[/b], [b]VEHICLE[/b] or [b]MONSTER[/b] unit was destroyed by an [b]ADEPTUS ASTARTES[/b] unit from your army during that battle round.\n- Oath of Honour: Score 1 victory point provided no [b]ADEPTUS ASTARTES[/b] units from your army failed a Morale test, and no [b]ADEPTUS ASTARTES[/b] units from your army Fell Back this battle round.\n- Oath of Duty: Score 1 victory point if an [b]ADEPTUS ASTARTES CORE[/b] or [b]ADEPTUS ASTARTES CHARACTER[/b] unit from your army is wholly within 6\" of the centre of the battlefield."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "CODEX CHAPTERS",
+			"name": "SM Codex Chapters",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.04.01.01",
+							"name": "Lighting Strike (WS)",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn:\n- Score 3 victory points for each [b]CHARACTER[/b] or [b]MONSTER[/b] unit that was destroyed by a melee attack made by a [b]WHITE SCARS[/b] unit that made a charge move this turn.\n- Score 1 victory point for each other enemy unit that was destroyed by a melee attack made by a [b]WHITE SCARS[/b] unit from your army that made a charge move this turn.\n- Score 1 victory point for each enemy unit that was destroyed by a ranged attack made by a [b]WHITE SCARS[/b] unit from your army that Advanced this turn.\n\nYou can score a maximum of 5 victory points per battle round from this secondary objective."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.04.02.01",
+							"name": "Cold Fury (IH)",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 1 victory point for each of the following conditions you satisfy (for a maximum of 4 victory points):\n- One or more [b]IRON HANDS VEHICLE[/b] units (excluding [b]AIRCRAFT units[/b]) from your army are wholly within your opponent's deployment zone.\n- One or more [b]IRON HANDS VEHICLE[/b] units (excluding [b]AIRCRAFT units[/b]) from your army are wholly within 6\" of the centre of the battlefield.\n- One or more enemy units were destroyed by ranged attacks made by [b]IRON HANDS VEHICLE[/b] units from your army this turn.\n- One or more enemy units were destroyed by melee attacks made by [b]IRON HANDS VEHICLE[/b] units from your army this turn."
+						},
+						{
+							"id": "GT22.04.02.02",
+							"name": "The Promethean Creed (S)",
+							"description": "[i]Progressive Objective[/i]\nIn your first Command phase, select one objective marker that is not within your deployment zone.\n\nAt the end of each of your Command phases, if you control that objective marker and a [b]SALAMANDERS CORE INFANTRY[/b] unit from your army is within range of it, score 2 victory points.\n\nEach time an enemy unit is selected to shoot or fight, if it selects a [b]SALAMANDERS INFANTRY[/b] unit from your army that is within range of that objective marker as the target of one or more of its attacks, but it does not destroy that unit as a result of those attacks, score 1 victory point (to a maximum of 3 victory points per turn).\n\nAt the end of each player's turn, if one or more enemy units were destroyed by attacks made by a [b]SALAMANDERS INFANTRY[/b] unit from your army that turn while that [b]SALAMANDERS INFANTRY[/b] unit was within range of that objective marker, score 1 victory point (score 2 victory points instead if one or more models in any of those destroyed units were destroyed as a result of attacks made with flame or melta weapons that turn)."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.04.03.01",
+							"name": "Bolster Barricades (IF)",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]IMPERIAL FISTS[/b] units from your army can attempt the Bolster Barricades action.\n\nEach time a unit from your army completes the action:\n- If the objective marker that was barricaded by that action was within your deployment zone, score 1 victory point.\n- If the objective marker that was barricaded by that action was not within either player's deployment zone, score 4 victory points.\n\nUntil the end of the battle, each time an enemy unit makes an attack that targets an [b]IMPERIAL FISTS INFANTRY[/b] unit from your army that is wholly within 6\" of an objective marker that has been barricaded by your army, that unit receives the benefits of Light Cover and Heavy Cover against that attack.",
+							"actions": [
+								{
+									"id": "GT22.04.03.01a",
+									"name": "Bolster Barricades (Action)",
+									"description": "[i]Action[/i]\nOne [b]IMPERIAL FISTS CORE INFANTRY[/b] unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker you control that has not been barricaded by your army (see below). The action is completed at the start of your next Command Phase or at the end of the battle (whichever comes first), provided the unit performing it is still within range of the same objective marker. If completed, that objective marker is said to have been barricaded by your army."
+								}
+							]
+						},
+						{
+							"id": "GT22.04.03.02",
+							"name": "Secure or Sabotage (RG)",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]RAVEN GUARD[/b] units from your army can attempt the Plant Explosives action.\n\nAt the end of any player's turn, for each objective marker that has explosives planted on it by your army, if that objective marker is controlled by your opponent, you can perform a controlled explosion with it. If you do so, that objective marker is no longer said to have explosives planted on it by your army, and for each unit within range of that objective marker roll one D6: on a 2+ that unit suffers 3 mortal wounds. You cannot perform a controlled explosion with an objective marker in the same turn it had explosives planted on it by your army.\n\nAt the end of the battle, score 3 victory points for each objective marker that still has explosives planted on it by your army.",
+							"actions": [
+								{
+									"id": "GT22.04.03.02a",
+									"name": "Plant Explosives (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]RAVEN GUARD CORE INFANTRY[/b] units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be within range of a different objective marker you control that does not have explosives planted on it by your army (see below). The action is completed at the end of your turn. If completed, that objective marker is said to have explosives planted on it by your army."
+								}
+							]
+						},
+						{
+							"id": "GT22.04.03.03",
+							"name": "March for Macragge (UM)",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]ULTRAMARINES CORE INFANTRY[/b] units from your army can attempt the Claimed for Macragge action. Score 4 victory points each time a unit from your army completes this action.",
+							"actions": [
+								{
+									"id": "GT22.04.03.03a",
+									"name": "Claimed for Macragge (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]ULTRAMARINES CORE INFANTRY[/b] units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be within range of a different objective marker you control that is not within your deployment zone and has not been claimed for Macragge by your army. The action is completed at the start of your next Command phase or at the end of the battle (whichever comes first). If completed, that objective marker is said to have been claimed for Macragge by your army."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "BLOOD ANGELS",
+			"name": "Blood Angels",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.05.01.01",
+							"name": "Blade of Sanguinius",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission select one [b]BLOOD ANGELS CHARACTER[/b] model from your army to issue the challenge, then select one [b]CHARACTER[/b] model from your opponent's army to accept the challenge. Score 5 victory points at the end of the battle for each of the following conditions that has been achieved:\n- The model that accepted the challenge is destroyed.\n- The model that accepted the challenge was destroyed as the result of a melee attack.\n- The model that accepted the challenge was destroyed as the result of an attack made by the model that issued the challenge.\n\nIf the model that accepted the challenge is a Strategic Reserve or Reinforcement unit and is destroyed as a result of not arriving on the battlefield, all of the above conditions are considered to have been satisfied. If all three of these conditions are satisfied during the battle, your opponent immediately loses 1 Command point (to a minimum of 0)."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.05.02.01",
+							"name": "Fury of the Lost",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round:\n- Score 3 victory points if one enemy unit was destroyed by a [b]DEATH COMPANY[/b] unit from your army this battle round. Score 4 victory points instead of two or more enemy units were destroyed by [b]DEATH COMPANY[/b] units from your army this battle round.\n- Score 1 additional victory point if one or more [b]DEATH COMPANY[/b] units from your army were destroyed by enemy units this battle round."
+						},
+						{
+							"id": "GT22.05.03.01",
+							"name": "Death from Above",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 3 victory points if any enemy units were destroyed by a [b]BLOOD ANGELS[/b] unit from your army that was set up on the battlefield in the Reinforcements step of any of your movement phases during the battle.\n\nIf any of those enemy units were destroyed in the same turn in which that [b]BLOOD ANGELS[/b] unit was set up, score 1 additional victory point.\n\nIf any of those enemy units were [b]CHARACTER[/b] units, score 1 additional victory point."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.05.04.01",
+							"name": "Relentless Assault",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 4 victory points if there are more [b]BLOOD ANGELS[/b] units from your army in your opponent's deployment zone than there are enemy units in your deployment zone."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "DARK ANGELS",
+			"name": "Dark Angels",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.06.01.01",
+							"name": "Martial Interdiction",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission select one [b]CHARACTER[/b] model from your opponent's army. At the end of the battle, score victory points as follows:\n- Score 3 victory points if the selected enemy model is destroyed\n- Score 3 additional victory points if the selected enemy model was destroyed by a melee attack made by a [b]DARK ANGELS[/b] unit from your army\n- Score 3 additional victory points if the selected enemy model was destroyed by a melee attack made by an [b]INNER CIRCLE[/b] or [b]DEATHWING[/b] model from your army\n- Score 6 additional victory points if the unit of the [b]DARK ANGELS[/b] model that destroyed the selected enemy model has not been destroyed."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.06.02.01",
+							"name": "Death on the Wind",
+							"description": "[i]Progressive Objective[/i]\nScore 2 victory points each time an enemy unit is destroyed by an attack made by a RAVENWING model from your army that moved 12\" or more during the Movement phase of that turn or made a charge move this turn."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.06.03.01",
+							"name": "Stubborn Defiance",
+							"description": "[i]Progressive Objective[/i]\nIn your first command phase, select one objective marker that is not within your deployment zone. At the end of each of your Command phases, if you control that objective marker and a [b]DARK ANGELS[/b] unit from your army with the Objective Secured ability is in range of it, score a number of victory points based on the number of your Command phases you have controlled that objective marker for and had that unit within range of it, as follows:\n- 1 Command phase - 1 victory point\n- 2 Command phases - 2 victory points\n- 3 Command phases - 3 victory points\n- 4 Command phases - 4 victory points\n- 5 Command phases - 5 victory points"
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "DEATHWATCH",
+			"name": "Deathwatch",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.07.01.01",
+							"name": "The Long Vigil",
+							"description": "[i]Progressive Objective[/i]\nAt the start of your Command phase, score 4 victory points if there are no enemy units (excluding [b]AIRCRAFT[/b] units) wholly within your deployment zone and there is at least one [b]DEATHWATCH[/b] unit (excluding [b]AIRCRAFT[/b] units) from your army wholly within your deployment zone. You cannot score this secondary objective during the first battle round."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.07.02.01",
+							"name": "Cull Order",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission select three Battlefield Roles (HQ, Troops etc) from the units in your opponent's army. If your opponent's army does not include at least three units with different Battlefield Roles, select as many Battlefield Roles as possible. At the end of the battle, for each Battlefield Role that was selected, score 4 Victory points if every enemy unit in your opponent's army with that Battlefield Role has been destroyed."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.07.03.01",
+							"name": "Suffer not the Alien",
+							"description": "[i]End Game Objective[/i]\nScore 1 victory point at the end of the battle for each enemy TYRANIDS, AELDARI, ORK, NECRONS and T'AU EMPIRE unit destroyed by a DEATHWATCH unit from your army during the battle."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.07.04.01",
+							"name": "Cripple Stronghold",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission your opponent must select one objective marker on the battlefield not within their deployment zone to be the Stronghold objective marker (if the only objective marker on the battlefield is in the enemy's deployment zone, then this must be the Stronghold objective marker).\n\nIf you select this objective, [b]DEATHWATCH INFANTRY[/b] units from your army can attempt the Cripple Stronghold action. Each time a unit from your army completes this action, score 4 victory points and roll a D6: on a 6 your opponent loses 1 Command point (to a minimum of 0).",
+							"actions": [
+								{
+									"id": "GT22.07.04.01a",
+									"name": "Cripple Stronghold (Action)",
+									"description": "[i]Action[/i]\nOne [b]DEATHWATCH INFANTRY[/b] unit from your army can start to perform this action at the end of your Movement phase if it is within range of the Stronghold objective marker and you control that objective marker. This action is completed at the end of your turn provided the unit performing the action is still within range of the same objective marker."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "SPACE WOLVES",
+			"name": "Space Wolves",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.08.01.01",
+							"name": "Glory Kills",
+							"description": "[i]Progressive Objective[/i]\nYAt the end of the battle round, score victory points as follows (for a maximum of 5 victory points):\n- Score 2 victory points if any [b]CHARACTER[/b] units were destroyed by a [b]SPACE WOLVES[/b] unit from your army during this battle round. If no [b]CHARACTER[/b] units were destroyed, but a [b]CHARACTER[/b] unit suffered 3 or more wounds as the result of attacks made by [b]SPACE WOLVES[/b] units from your army, score 1 victory point instead.\n- Score 3 victory points if any [b]MONSTER[/b] or [b]VEHICLE[/b] units were destroyed by a [b]SPACE WOLVES[/b] unit from your army during this battle round. If no [b]MONSTER[/b] or [b]VEHICLE[/b] units were destroyed, but a [b]MONSTER[/b] or [b]VEHICLE[/b] unit suffered 1 or more wounds as a result of attacks made by [b]SPACE WOLVES[/b] units from your army, score 1 victory point instead.\n\nA [b]CHARACTER MONSTER[/b] or [b]CHARACTER VEHICLE[/b] unit counts towards both parts of this objective."
+						},
+						{
+							"id": "GT22.08.02.01",
+							"name": "Heroic Challenge",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission select one [b]SPACE WOLVES CHARACTER[/b] model from your army to issue the challenge, then select one [b]CHARACTER[/b] model from your opponent's army to accept the challenge. Score 5 victory points at the end of the battle for each of the following conditions that has been achieved:\n- The model that accepted the challenge is destroyed.\n- The model that accepted the challenge was destroyed as the result of a melee attack.\n- The model that accepted the challenge was destroyed as the result of an attack made by the model that issued the challenge.\n\nIf the model that accepted the challenge is a Strategic Reserve or Reinforcement unit and is destroyed as a result of not arriving on the battlefield, all of the above conditions are considered to have been satisfied. If all three of these conditions are satisfied during the battle, your immediately gain 1 Command point."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.08.03.01",
+							"name": "A Mighty Saga",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round, score 2 victory points for each of the following achieved by your [b]SPACE WOLVES WARLORD[/b] (for a maximum of 5 victory points per battle round):\n- An enemy [b]CHARACTER[/b], [b]MONSTER[/b] or [b]VEHICLE[/b] unit lost any wounds as the result of a melee attack made by your [b]WARLORD[/b] this battle round.\n- 5 or more models were destroyed as the result of attacks made by your [b]WARLORD[/b] this battle round.\n- An enemy unit was destroyed as the result of an attack made by this [b]WARLORD[/b] this battle round.\n- Your [b]WARLORD[/b] is in range of an objective marker you control that is not within your deployment zone."
+						},
+						{
+							"id": "GT22.08.04.01",
+							"name": "Warrior Pride",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 3 victory points if two or more [b]SPACE WOLVES[/b] units from your army are within Engagement Range of any enemy units or completed a charge move this turn, and neither of those units are within your deployment zone."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "BLACK TEMPLARS",
+			"name": "Black Templars",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.09.01.01",
+							"name": "Bathe Your Blade",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, select one [b]BLACK TEMPLARS CHARACTER[/b] model from your army to issue the challenge, then select one [b]CHARACTER[/b] model from your opponent's army to accept the challenge. Score 5 victory points at the end of the battle for each of the following conditions that has been achieved:\n- The model that accepted the challenge is destroyed.\n- The model that accepted the challenge was destroyed as the result of a melee attack.\n- The model that accepted the challenge was destroyed as the result of an attack made by the model that issued the challenge.\n\nIf the model that accepted the challenge is a Strategic Reserve or Reinforcement unit and is destroyed as a result of not arriving on the battlefield, all of the above conditions are considered to have been satisfied.\n\nIf all three of these conditions are satisfied during the battle, you immediately gain 1 Command point."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.09.02.01",
+							"name": "Allow Not The Worship",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 2 victory points for each objective marker you control that was controlled by your opponent at the start of that turn, and that has a [b]BLACK TEMPLARS CORE[/b] or [b]BLACK TEMPLARS CHAPLAIN[/b] unit from your army within range of it."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.09.03.01",
+							"name": "Carry Out Your Vows",
+							"description": "[i]Progressive and End Game Objective[/i]\nYou can select this secondary objective if you have selected any Templar Vows. This objective consists of a Progressive component and an End Game component. For the purposes of the End Game component, you can only score victory points that apply for the Templar Vow you selected at the end of the Read Mission Briefing step, and not for any other vows you selected during the battle.\n\n[i]Progressive Component[/i]\nAt the end of the battle round, score 4 victory points if the number of enemy units destroyed by melee attacks made by [b]BLACK TEMPLARS[/b] units from your army this battle round is greater than the number of [b]BLACK TEMPLARS[/b] units from your army destroyed this battle round. You can score a maximum of 12 victory points per battle from this component.\n\n[i]End Game Component[/i]\nAt the end of the battle, score 3 victory points if any of the following conditions are satisfied:\n- You selected the Suffer Not the Unclean to Live vow before the battle, and the enemy [b]WARLORD[/b] was destroyed by a melee attack made by a [b]BLACK TEMPLARS CHARACTER[/b] unit from your army during the battle.\n- You selected the Uphold the Honour of the Emperor vow before the battle, and a [b]BLACK TEMPLARS INFANTRY[/b] unit (excluding [b]CHARACTER[/b] units) from your army that is not below Half strength is in your opponent's deployment zone at the end of the battle.\n- You selected the Abhor the Witch, Destroy the Witch vow before the battle, and one or more enemy [b]PSYKER CHARACTER[/b] units were destroyed by a [b]BLACK TEMPLARS[/b] unit from your army during the battle.\n- You selected the Accept Any Challenge, No Matter the Odds vow before the battle, and an enemy unit with a Starting Strength of 20 or more models or an enemy model with a Wounds characteristic of 20 or more was destroyed by a [b]BLACK TEMPLARS[/b] unit from your army during the battle."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "ADEPTA SORORITAS",
+			"name": "Adepta Sororitas",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.10.01.01",
+							"name": "A Leap Of Faith",
+							"description": "[i]Progressive Objective[/i]\nAt the end of each turn, if 2 Acts of Faith were performed during that turn by [b]ADEPTA SORORITAS[/b] units from your army, score 1 victory point if it is your turn, or 2 victory points if it is your opponent's turn. If 3 of more Acts of Faith were performed by [b]ADEPTA SORORITAS[/b] units from your army during that turn, score 1 additional victory point. Note that Acts of Faith performed due to Cherub dice bestowed by incensor cherubs do not count towards this secondary objective. You can score no more than 12 victory points from this secondary objective during the mission."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.10.02.01",
+							"name": "Sacred Grounds",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then [b]ADEPTA SORORITAS INFANTRY[/b] and [b]CULT IMPERIALIS PRIEST[/b] units from your army can attempt the following action. Each time a unit from your army completes this action, if the objective marker that was consecrated by that action was wholly within your deployment zone, score 1 victory point; otherwise, score 5 victory points.",
+							"actions": [
+								{
+									"id": "GT22.10.02.01a",
+									"name": "Sacred Grounds (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]ADEPTA SORORITAS INFANTRY[/b] or [b]CULT IMPERIALIS PRIEST[/b] units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this this action must be within range of a different objective marker you control that has not been consecrated by your army (see below). The action is completed at the start of your next Command phase or at the end of the battle (whichever comes first). If completed, that objective marker is said to have been consecrated by your army, and until the end of the battle, that objective marker gains the Inspiring ([b]ADEPTUS MINISTORUM[/b]) terrain trait (it is not considered a terrain feature for any other rules purposes)."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.10.03.01",
+							"name": "Slay the Heretic",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round:\n- Score 1 victory point for each enemy unit destroyed by an attack made with a bolt weapon by an [b]ADEPTUS MINISTORUM[/b] unit from your army (to a maximum of 5 victory points per battle).\n- Score 1 victory point for each enemy unit destroyed by an attack made with a flame weapon by an [b]ADEPTUS MINISTORUM[/b] unit from your army (to a maximum of 5 victory points per battle).\n- Score 1 victory point for each enemy unit destroyed by an attack made with a melta weapon by an [b]ADEPTUS MINISTORUM[/b] unit from your army (to a maximum of 5 victory points per battle)."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.10.04.01",
+							"name": "Defend the Shrine",
+							"description": "[i]Progressive and End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, select one objective marker on the battlefield not in your deployment zone to be the Sacred Shrine objective marker. If the only objective marker on the battlefield is in your deployment zone, then that must be the Sacred Shrine objective marker.\n\nAt the end of your turn, score 3 victory points if you control the Sacred Shrine objective marker and an [b]ADEPTUS MINISTORUM[/b] unit from your army is within range of that objective marker.\n\nAt the end of the battle, if your opponent controls the Sacred Shrine objective marker, reduce the number of victory points you have gained from this secondary objective by 3 (to a minimum of 0)."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "ADEPTUS CUSTODES",
+			"name": "Adeptus Custodes",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.11.01.01",
+							"name": "Might Of Terra",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round, score 4 victory points if one or more enemy units were destroyed this battle round by an [b]ADEPTUS CUSTODES[/b] unit from your army and no [b]ADEPTUS CUSTODES[/b] units from your army were destroyed this battle round."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.11.02.01",
+							"name": "Stand Vigil",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round, score 3 victory points if you control more objective markers that are not within either player's deployment zone than your opponent does."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.11.03.01",
+							"name": "Auric Mortalis",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, select one [b]PRIMARCH[/b] or [b]SUPREME COMMANDER[/b] unit from your opponent's army to be marked for death (see below). If no such unit exists, select the unit from your opponent's army with the highest points value (excluding [b]AIRCRAFT[/b] units) to be marked for death. A unit's points value includes the points of all weapons, wargear and upgrades it has.\n\nAt the end of the battle, score victory points as follows:\n- Score 5 victory points if the unit you selected to be marked for death is destroyed.\n- Score 5 victory points if the unit you selected to be marked for death was destroyed as a result of a melee attack made by an [b]ADEPTUS CUSTODES[/b] or [b]ANATHEMA PSYKANA[/b] unit from your army.\n- Score 5 victory points if both of the above are true and the unit you selected to be marked for death was not within your deployment zone when it was destroyed."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "ADEPTUS MECHANICUS",
+			"name": "Adeptus Mechanicus",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.12.01.01",
+							"name": "Accretion of Knowledge",
+							"description": "[i]End Game Objective[/i]\nAt the end of the battle, score 3 victory points for each enemy model that is destroyed that meets one or more of the following criteria:\n- The model has a Warlord Trait.\n- The model has a Relic.\n- The model has the [b]VEHICLE[/b] keyword and a Wounds characteristic of 14 or more.\n\nModels that were not destroyed by [b]ADEPTUS MECHANICUS[/b] units from your army do not count towards this secondary objective."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.12.02.01",
+							"name": "Eradication of Flesh",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round, score 3 victory points if more enemy units were destroyed by [b]ADEPTUS MECHANICUS VEHICLES[/b] units from your army this battle round than the number of [b]ADEPTUS MECHANICUS VEHICLES[/b] units from your army that were destroyed by enemy units this battle round."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.12.03.01",
+							"name": "Uncharted Sequencing",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, assign one objective marker to each battle round and note this down on your army roster. An objective marker cannot be assigned to more than one battle round. Score 3 victory points at the end of the battle round if you control the objective marker assigned to that battle round and an [b]ADEPTUS MECHANICUS[/b] unit from your army is within range of that objective marker."
+						},
+						{
+							"id": "GT22.12.04.01",
+							"name": "Hidden Archeovault",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, your opponent must select one objective marker on the battlefield not within their deployment zone to be the Hidden Archeovault objective marker. If the only objective marker on the battlefield is in the enemy's deployment zone, then this must be the Hidden Archeovault objective marker.\n\nAt the end of the battle round, score 4 victory points if you control the Hidden Archeovault objective marker and an [b]ADEPTUS MECHANICUS[/b] unit from your army is within range of that objective marker."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "ASTRA MILITARUM",
+			"name": "Astra Militarum",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.13.01.01",
+							"name": "By Lasgun and Bayonet",
+							"description": "[i]Progressive Objective[/i]\nScore 1 victory point each time an enemy unit that started the turn within range of an objective marker is destroyed by an [b]ASTRA MILITARUM[/b] unit from your army."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.13.02.01",
+							"name": "Inflexible Command",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn:\n- Score 2 victory points if every [b]ASTRA MILITARUM INFANTRY[/b] unit from your army is within 6\" of a friendly [b]OFFICER[/b] unit.\n- Score 1 victory point if every [b]ASTRA MILITARUM VEHICLE[/b] unit from your army is within 12\" of a friendly [b]VEHICLE OFFICER[/b] unit.\n- Score 1 victory point if any enemy units were destroyed by an [b]ASTRA MILITARUM[/b] unit this turn while that [b]ASTRA MILITARUM[/b] unit was being affected by an Order or Tank Order.\n\nFor the purposes of this secondary objective, while an [b]OFFICER[/b] unit from your army is embarked within a [b]TRANSPORT[/b] model, that [b]TRANSPORT[/b] model is considered to have the [b]OFFICER[/b] keyword. In addition, for the purposes of this secondary objective, while an [b]INFANTRY[/b] unit from your equipped with a vox-caster is within 24\" of a friendly [b]OFFICER[/b] unit, it counts as being within 6\" instead if that [b]OFFICER[/b] unit is itself within 1\" of a friendly [b]COMMAND SQUAD[/b] or [b]TEMPESTUS COMMAND SQUAD[/b] unit that is also equipped with a vox caster."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.13.03.01",
+							"name": "Boots on the Ground",
+							"description": "[i]Progressive Objective[/i]\nAt the end of each of your turns (excluding the first):\n- Score 1 victory point for each table quarter that has one or more [b]<REGIMENT> INFANTRY[/b] units from your army wholly within it (excluding [b]CHARACTER[/b] models and units that are within 6\" of the centre of the battlefield).\n- Score 1 victory point if one or more units from your army equipped with a regimental standard are either wholly within 6\" of the centre of the battlefield or wholly within your opponent's deployment zone."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.13.04.01",
+							"name": "Special Orders",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, units from your army can attempt the Expunge Intel action. At the end of the battle, score a number of victory points based on how many objective markers have been expunged by your army, as shown below:\n- 1 objective marker - 2 victory points\n- 2 objective markers - 5 victory points\n- 3 objective markers - 10 victory points\n- 4+ objective markers - 15 victory points",
+							"actions": [
+								{
+									"id": "GT22.13.02.01a",
+									"name": "Expunge Intel (Action)",
+									"description": "[i]Action[/i]\nOne [b]ASTRA MILITARUM INFANTRY[/b] unit from your army can start to perform this action at the end of your Movement phase if it is within 12\" of a friendly [b]OFFICER[/b] unit and it is within range of an objective marker you control that is not within your deployment zone and has not already been expunged by your army (see below). The action is completed at the end of the turn. If completed, that objective marker is said to have been expunged by your army. Roll one D6 each time an objective marker is expunged by your army: on a 6, you gain 1 Command point."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "IMPERIAL KNIGHTS",
+			"name": "Imperial Knights",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.14.01.01",
+							"name": "Yield No Ground",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 1 victory point for each of the following conditions you satisfy (to a maximum of 3 victory points):\n- You control half or more of the total number of objective markers on the battlefield, and one or more [b]IMPERIAL KNIGHTS[/b] models from your army are within range of each of those objective markers.\n- No enemy units (excluding [b]AIRCRAFT[/b] units) are wholly within your deployment zone.\n- No [b]IMPERIAL KNIGHTS[/b] units from your army ended that turn closer to your battlefield edge than they started the turn, and no [b]IMPERIAL KNIGHTS[/b] units from your army Fell Back that turn."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.14.02.01",
+							"name": "Honour of the House",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, at the end of each battle round, if you have 6 Honour Points or if you have more Honour Points than you did at the start of the battle round, gain 2 victory points.\n\nAt the end of the battle:\n- If your army is Virtuous, gain 3 additional victory points.\n- If your army is Honoured, gain 2 additional victory points.\n- If your army is Dishonoured, reduce the number of victory points you have earned from this secondary objective by 3 (to a minimum of 0)."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.14.03.01",
+							"name": "Duel of Honour",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle, after you have deployed armies, you must identify your opponent's [b]WARLORD[/b], and the two units from your opponent's army that have the highest points value (excluding your opponent's [b]WARLORD[/b]), and make a note of them on your army roster (if two or more units are tied, your opponent can choose between them). If your opponent's army has three or fewer units, then you instead identify all the units in your opponent's army. A unit's points cost includes the points of all weapons and wargear it is equipped with.\n\nAt the end of the battle, for each identified enemy unit that is destroyed, you score a number of victory points if that unit was destroyed during the battle by an [b]IMPERIAL KNIGHTS[/b] unit from your army. The number of victory points scored depends on how the enemy unit was destroyed.\n\n- [b]Honour to the King - 5VP:[/b] The unit was destroyed by a melee attack made by your [b]WARLORD[/b].\n- [b]Personal Combat - 4VP:[/b] The unit was destroyed by a melee attack made by any other [b]IMPERIAL KNIGHTS[/b] model from your army.\n- [b]Cowardly Cur - 4VP:[/b] The unit was destroyed because it was not on the battlefield at the end of the battle and so counted as destroyed (note, this does not apply if the enemy unit is embarked in a [b]TRANSPORT[/b] that is itself on the battlefield at the end of the battle).\n- [b]Inglorious Demise - 3VP:[/b] The enemy unit was destroyed by any other means.\n\nAt the end of any battle round in which Honour to the King or Personal Combat was achieved, you gain 1 Honour point.\n\nAt the end of the battle, if the enemy's [b]WARLORD[/b] has been destroyed, you gain 1 additional victory point, but you must reduce the number of victory points you have earned from this secondary objective by 1 (to a minimum of 0) for each of the identified units that has not been destroyed.\n\nFor example, if the enemy [b]WARLORD[/b] was destroyed by a melee attack made by your [b]WARLORD[/b], one of the other identified units was destroyed by a ranged attack made by a model in your army, and the third identified unit was still on the battlefield at the end of the battle, you would score 8 victory points from this secondary objective."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.14.04.01",
+							"name": "Renew the Oaths",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then [b]IMPERIAL KNIGHTS[/b] units from your army can attempt the Renew the Oaths action.\n\nEach time a unit from your army completes this action:\n- You score 3 victory points if the action was completed by a non-[b]TITANIC[/b] model.\n- You score 4 victory points if the action was completed by a [b]TITANIC[/b] model.\n- You score 1 additional victory point if the action was completed by a [b]CHARACTER[/b] model.\n- You must roll one D6: on a 4+, you gain 1 Honour point.",
+							"actions": [
+								{
+									"id": "GT22.14.04.01a",
+									"name": "Renew the Oaths (Action)",
+									"description": "[i]Action[/i]\nOne [b]IMPERIAL KNIGHTS[/b] model from your army can start to perform this action at the end of your Movement phase if it is within 6\" of the centre of the battlefield. This action is completed at the end of your turn provided the unit attempting it is still within 6\" of the centre of the battlefield."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "GREY KNIGHTS",
+			"name": "Grey Knights",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.15.01.01",
+							"name": "Destroy the Daemon",
+							"description": "[i]End Game Objective[/i]\nAt the end of the battle, score victory points for each enemy unit destroyed by a [b]GREY KNIGHTS[/b] unit from your army during the battle as follows:\n- [b]DAEMON PRIMARCH[/b] unit - score 5 victory points.\n- Any other [b]DAEMON MONSTER[/b] uunit - score 3 victory points.\n- [b]DAEMON VEHICLE[/b] unit - score 3 victory points.\n- Any other [b]DAEMON[/b] unit - score 1 victory point.\nAt the end of the battle, reduce the number of victory points scored from this secondary objective by 1 for each [b]DAEMON[/b] unit that is on the battlefield that is not below Half strength. For the purposes of this secondary, units with a Starting strength of 1 are considered to be below Half strength at the end of the battle if their remaining number of wounds is less than half their starting Wounds characteristic."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.15.02.01",
+							"name": "Teleport Assault",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round, score 4 victory points if one or more enemy units were destroyed by a [b]GREY KNIGHTS[/b] model from your army that was set up on the battlefield using the Teleport Strike ability, the Teleportation Shunt Stratagem or the Gate of Infinity psychic power this battle round."
+						}
+					]
+				},
+				{
+					"name": "Warpcraft",
+					"objectives": [
+						{
+							"id": "GT22.15.03.01",
+							"name": "Purifying Ritual",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]GREY KNIGHTS PSYKER[/b] units from your army can attempt the Purifying Ritual psychic action.\n\nAt the end of your turn, score victory points depending on the number of objective markers purified by your army this turn, as below:\n- 1 objective marker - 1 victory point\n- 2 objective markers - 2 victory points\n- 3 objective markers - 4 victory points\n- 4+ objective markers - 5 victory points",
+							"actions": [
+								{
+									"id": "GT22.15.03.01a",
+									"name": "Purifying Ritual (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 5[/i]\nOne or more [b]GREY KNIGHTS PSYKER[/b] units from your army can attempt to perform this psychic action in your Psychic phase. Each unit from your army that starts to perform this psychic action must be within range of a different objective marker you control that has not been purified by your army this turn. If this psychic action is completed, that objective marker is said to have been purified by your army this turn."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "ASURYANI",
+			"name": "Asuryani",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.16.01.01",
+							"name": "The Hidden Path",
+							"description": "[i]Progressive Objective[/i]\nIf you select this secondary objective and your army contains a [b]WEBWAY GATE[/b] unit, that unit cannot be set up within 6\" of your deployment zone. If your army does not contain a [b]WEBWAY GATE[/b] unit, in your first Command phase, select one objective marker that is not within 6\" of your deployment zone. At the end of each of your Command phases:\n\n- If your army includes a [b]WEBWAY GATE[/b] unit, score a number of victory points equal to the current battle round number if you control that [b]WEBWAY GATE[/b]. You control it if there is one [b]ASURYANI[/b] unit with the Objective Secured ability within 3\" of it, or if there are more [b]ASURYANI[/b] models from your army within 3\" of it than there are enemy models (excluding [b]WEBWAY GATE[/b] models).\n- If your army does not include a [b]WEBWAY GATE[/b] unit, score a number of victory points equal to the current battle round number if you control the selected objective marker and an [b]ASURYANI[/b] unit from your army is within range of that objective marker."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.16.02.01",
+							"name": "Wrath of Khaine",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round:\n- Score 1 victory point if one or more enemy units were destroyed by a ranged attack made by an [b]ASPECT WARRIOR[/b] unit from your army this battle round.\n- Score 1 victory point if one or more enemy units were destroyed by a melee attack made by a different [b]ASPECT WARRIOR[/b] unit from your army this battle round.\n- Score 2 additional victory points if both of the above bullet points were achieved this battle round."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.16.03.01",
+							"name": "Scout The Enemy",
+							"description": "[i]Progressive Objective[/i]\n[b]ASURYANI[/b] units from your army can attempt the Scout the Enemy action. When the action is completed:\n- Score 2 victory points if the unit performing the action is not wholly within your opponent's deployment zone.\n- Score 4 victory points if the unit performing the action is wholly within your opponent's deployment zone.",
+							"actions": [
+								{
+									"id": "GT22.16.03.01a",
+									"name": "Scout the Enemy (Action)",
+									"description": "[i]Psychic Action[/i]\nOne [b]ASURYANI[/b] unit from your army can start to perform this action at the end of your Movement phase if it is not within 6\" of your deployment zone. If the unit performing this action is a [b]RANGERS[/b] unit, it is completed at the end of the turn; otherwise, it is completed at the start of your next Command phase or at the end of the battle (whichever comes first)."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Warpcraft",
+					"objectives": [
+						{
+							"id": "GT22.16.04.01",
+							"name": "Scry Futures",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]ASURYANI PSYKER[/b] units from your army can attempt the Scry Futures psychic action.\n\nScore 3 victory points each time a unit from your army completes the Scry Futures psychic action.",
+							"actions": [
+								{
+									"id": "GT22.16.04.01a",
+									"name": "Scry Futures (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]ASURYANI PSYKER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within range of an objective marker that has not yet been scried by your army. If this psychic action is completed, that objective marker is said to have been scried by your army."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "HARLEQUINS",
+			"name": "Harlequins",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.17.01.01",
+							"name": "Take Your Places",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, set up one additional objective marker in your opponent's deployment zone, then your opponent must set up one additional objective marker in your deployment zone and one additional objective marker within 6\" of the centre of the battlefield. These objective markers cannot be set up within 9\" of each other, within 6\" of a battlefield edge or within 1\" of another objective marker. These \"Take Your Places\" objective markers represent the positions your Harlequins must take up for their performance, but do not count as objective markers for any rules purposes other than for this secondary objective.\n\n- At the end of your turn, score 2 victory points if you control two of your Take Your Places objective markers and one or more [b]HARLEQUINS[/b] units from your army are within range of each of those objective markers.\n- At the end of your turn, score 4 victory points instead if you control all three of your Take Your Places objective markers and one or more [b]HARLEQUINS[/b] units from your army are within range of each of those objective markers."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.17.02.01",
+							"name": "A Deadly Performance",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 3 victory points if two or more of the following conditions are satisfied:\n- You control an objective marker you did not control at the start of the turn and a [b]HARLEQUINS[/b] unit from your army is within range of that objective marker.\n- A [b]HARLEQUINS[/b] unit from your army is wholly within your opponent's deployment zone.\n- Two or more enemy units were destroyed by an attack made with a ranged weapon by a [b]HARLEQUINS[/b] model from your army this turn.\n- Two or more enemy units were destroyed by an attack made with a melee weapon by a [b]HARLEQUINS[/b] model from your army this turn."
+						}
+					]
+				},
+				{
+					"name": "Warpcraft",
+					"objectives": [
+						{
+							"id": "GT22.17.03.01",
+							"name": "Weave Veil",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]SHADOWSEER[/b] models from your army can attempt the Weave Veil psychic action.\n\nScore 3 victory points each time a unit from your army completes the Weave Veil psychic action.",
+							"actions": [
+								{
+									"id": "GT22.17.03.01a",
+									"name": "Weave Veil (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 3[/i]\nOne [b]SHADOWSEER[/b] model from your army can attempt to perform this psychic action in your Psychic phase if it is within 18\" of an enemy unit that has not yet been veiled by your army. If this psychic action is completed, select one enemy unit that has not yet been veiled by your army and is within 18\" of the [b]SHADOWSEER[/b] model that completed this action. That enemy unit is said to have been veiled by your army, and the warp charge value of this psychic action is increased by 1 for your army for the remainder of the battle."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "DRUKHARI",
+			"name": "Drukhari",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.18.01.01",
+							"name": "Take Them Alive!",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round:\n- Score 3 victory points for each enemy [b]CHARACTER[/b] or [b]MONSTER[/b] unit that was destroyed by a melee attack made by a [b]DRUKHARI[/b] unit from your army this battle round.\n- Score 1 victory point for each other enemy unit that was destroyed by a melee attack made by a [b]DRUKHARI[/b] unit from your army this battle round.\n\nYou can score a maximum of 5 victory points per battle round from this secondary objective."
+						},
+						{
+							"id": "GT22.18.02.01",
+							"name": "Beasts for the Arenas",
+							"description": "[i]End Game Objective[/i]\nAt the end of the battle, score 2 victory points for each enemy [b]MONSTER[/b], [b]CAVALRY[/b] or [b]BEAST[/b] unit that was destroyed by a melee attack made by a [b]DRUKHARI[/b] unit from your army. For each of those enemy units that was destroyed by a [b]<WYCH CULT>[/b] unit from your army, score 1 additional victory point, and for each of those enemy units that was a [b]TITANIC[/b] unit, score 3 additional victory points."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.18.03.01",
+							"name": "Fear and Terror",
+							"description": "[i]Progressive Objective[/i]\nScore 1 victory point each time one of the following happens:\n- An enemy unit fails a Morale test.\n- An enemy unit Falls Back.\n- An enemy unit fails an action.\n\nIn additionl, each time an enemy unit is destroyed by a melee attack made by a [b]DRUKHARI[/b] model from your army, before removing the last model in that enemy unit from the battlefield, roll 2D6: if the result equals or exceeds the Leadership characteristic of that enemy model, score 1 victory point. A model can, if it is resurrected for any reasons (i.e. it was destroyed and subsequently returned to the battlefield), potentially contribute victory points due to this secondary objective several times (assuming it is resurrected and subsequently destroyed several times over, and your 2D6 result equals or exceeds that model's Leadership characteristic each time)."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.18.04.01",
+							"name": "Herd the Prey",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 1 victory point for each table quarter that does not have any enemy units (excluding [b]AIRCRAFT[/b] units) wholly within it."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "TYRANIDS",
+			"name": "Tyranids",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.19.01.01",
+							"name": "Synaptic Insight",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, keep a Synaptic Kill points tally. Reset your Synaptic Kill points tally to 0 at the start of each battle round. Each time an enemy model is destroyed by a [b]SYNAPSE[/b] model from your army:\n- If that enemy model had a Wounds characteristic of 3-5, gain 1 Synaptic Kill point.\n- If that enemy model had a Wounds characteristic of 6-9, gain 2 Synaptic Kill points.\n- If that enemy model had a Wounds characteristic of 10 or more, gain 3 Synaptic Kill points.\n\nAt the end of the battle round, score 3 victory points if your Synaptic Kill points tally is 4 or more. You can score a maximum of 12 victory points per battle from this secondary objective."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.19.02.01",
+							"name": "Spore Nodes",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]HIVE TENDRIL[/b] Troops units from your army can attempt the Seed Spore Node action. Score 4 victory points each time a unit from your army completes the Seed Spore Node action.",
+							"actions": [
+								{
+									"id": "GT22.19.02.01a",
+									"name": "Seed Spore Node (Action)",
+									"description": "[i]Action[/i]\nOne [b]HIVE TENDRIL[/b] Troops unit from your army can start to perform this action at the end of your Movement phase from the second battle round onwards if it is within 6\" of your opponent's deployment zone and not within 6\" of any Spore Node objective markers. The action is completed at the end of your turn. If completed, place one objective marker anywhere within 1\" of the unit that completed this action. This objective marker represents a Spore Node, but does not count as an objective marker for any rules purposes other than for this secondary objective."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.19.03.01",
+							"name": "Cranial Feasting",
+							"description": "[i]End Game Objective[/i]\nEach time an enemy [b]CHARACTER[/b] model or unit champion is destroyed by a melee attack made by a [b]HIVE TENDRIL[/b] model from your army, roll one D6, adding 2 to the roll if that [b]HIVE TENDRIL[/b] model has the [b]FEEDER TENDRILS[/b] keyword, and adding 2 to the result if the destroyed model has the [b]CHARACTER[/b] keyword: on a 6+, you gain 1 Command point.\n\nAt the end of the battle:\n- Score 3 victory points if you gained 1 or more Command points during the battle due to this secondary objective.\n- Score 1 victory point for each enemy unit champion that is destroyed, if it was destroyed by a melee attack made by a [b]HIVE TENDRIL[/b] model from your army.\n- Score 3 victory points for each enemy [b]CHARACTER[/b] unit that is destroyed, if it was destroyed by a melee attack made by a [b]HIVE TENDRIL[/b] model from your army.\n- Score an additional 3 victory points if the enemy [b]WARLORD[/b] is destroyed, if it was destroyed by a melee attack made by a [b]FEEDER TENDRILS[/b] model from your army."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "GENESTEALER CULTS",
+			"name": "Genestealer Cults",
+			"categories": [
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.20.01.01",
+							"name": "Sabotage Location",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, your opponent must place 2 critical location markers on the battlefield. Each must be more than 9\" away from any battlefield edge and more than 9\" away from their other critical location marker. If both players must place these markers, the players alternate doing so, starting with the Defender.\n\nIf you select this objective, then units from your army can perform the Sabotage Critical Location action.\n\nScore victory points each time a unit from your army completes the Sabotage Critical Location action:\n- 9 victory points if completed on battle round 2\n- 7 victory points if completed on battle round 3\n- 6 victory points if completed on battle round 4\n- 4 victory points if completed on battle round 5",
+							"actions": [
+								{
+									"id": "GT22.20.01.01a",
+									"name": "Sabotage Critical Location (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]GENESTEALER CULTS INFANTRY[/b], [b]BROOD BROTHERS INFANTRY[/b] or [b]GENESTEALER CULTS BIKER[/b] units from your army (excluding [b]CHARACTER[/b] units other than [b]REDUCTUS SABOTEUR[/b] units) can start to perform this action at the end of the Move Units step of your Movement phase. Each unit from your army that starts to perform this action must be within range of a different one of your opponent's critical location markers that you control. The action is completed at the end of your turn, provided the unit performing it is still within range of the same critical location marker. If completed, you have sabotaged that critical location; remove it from the battlefield."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.20.02.01",
+							"name": "Broodswarm",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 1 victory point for each of the following conditions you satisfy (for a maximum of 5 victory points):\n- You have more models on the battlefield than your opponent does.\n- You have more models within your opponent's deployment zone than your opponent does.\n- You have more models within your deployment zone than your deployment does.\n- You have more models on the battlefield that are within no man's land than your opponent does.\n- All four of the above bullet points apply."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.20.03.01",
+							"name": "Ambush",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score victory points alows (to a maximum of 4 victory points):\n- Score 1 victory point if one or more enemy units were destroyed this turn by units from your army while they had a crossfire marker.\n- Score 2 victory points if one or more enemy units were destroyed this turn by units from your army that were set up from ambush or from underground this turn.\n- Score 2 victory points if one or more enemy units were destroyed this turn as a result of a ranged attack made by a model from your army, and that enemy unit was Exposed when it was selected as the target for that attack. Note, that enemy unit must have been Exposed as specified on page 89 of the codex, rather than by any other means (e.g. the Priority Target ability)."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "NECRONS",
+			"name": "Necrons",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.21.01.01",
+							"name": "Purge the Vermin",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn:\n- Score 1 victory point for each table quarter that has no enemy units (excluding [b]AIRCRAFT[/b]) wholly within it.\n- Score 1 victory point if there are no enemy units (excluding [b]AIRCRAFT[/b]) wholly within your deployment zone."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.21.02.01",
+							"name": "The Treasures of Aeons",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, your opponent must select 3 objective markers on the battlefield. When doing so, they cannot select objective markers that are in their deployment zone unless they have already selected all objective markers that are in no man's land.\n\nAt the end of your turn, score victory points if you control one or more of those selected objective markers, as shown below:\n- 1 objective marker - 2 victory points\n- 2 objective markers - 3 victory points\n- 3 objective markers - 5 victory points"
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.21.03.01",
+							"name": "Code of Combat",
+							"description": "[i]End Game Objective[/i]\nAt the end of the battle:\n- Score 3 victory points for each enemy unit that was destroyed by a ranged attack made by a [b]NECRONS NOBLE[/b] unit from your army during the battle.\n- Score 4 victory points for each enemy unit that was destroyed by a melee attack made by a [b]NECRONS NOBLE[/b] unit from your army during the battle.\n\nIn addition, each time an enemy [b]CHARACTER[/b] unit is destroyed by a melee attack made by a [b]NECRONS NOBLE[/b] unit from your army, gain 1 Command point."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.21.04.01",
+							"name": "Ancient Machineries",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then [b]NECRONS CORE[/b] and [b]NECRONS CANOPTEK[/b] units from your army can attempt the Awaken Ancient Machinery action.\n\nScore 4 victory points each time a unit from your army completes this action.",
+							"actions": [
+								{
+									"id": "GT22.21.04.01a",
+									"name": "Awaken Ancient Machinery (Action)",
+									"description": "[i]Action[/i]\nAt the end of your Movement phase, one [b]NECRONS CORE[/b] or [b]NECRONS CANOPTEK[/b] unit from your army from your army can start to perform this action if it is within range of an objective marker you control that is not within your deployment zone and which has not already been awakened by your army (see below). If the unit performing this action has the Objective Secured ability, the action is completed at the end of your turn, otherwise, it is completed at the start of your next Command phase or at the end of the battle (whichever comes first). In any case, the action is only completed if the unit performing it is still within range of the same objective marker. If completed, that objective marker is said to have been awakened by your army."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "ORKS",
+			"name": "Orks",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.22.01.01",
+							"name": "Stomp 'Em Good",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round:\n- Score 3 victory points if the number of enemy units destroyed by melee attacks made by [b]ORKS[/b] units from your army this round is more than the number of non-[b]GRETCHIN[/b] units from your army destroyed by melee attacks this battle round.\n- Score 1 additional victory point at the end of each battle round if the number of enemy units destroyed by melee attacks made by [b]ORKS[/b] units from your army is at least 2 and double or more than the number of friendly non-[b]GRETCHIN[/b] units that were destroyed by melee attacks during this battle round."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.22.02.01",
+							"name": "Get da Good Bitz",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]ORKS CORE[/b] units from your army can attempt the Get da Good Bitz action.\n\nScore 3 victory points each time a unit from your army completes this action (to a maximum of 5 victory points per battle round).",
+							"actions": [
+								{
+									"id": "GT22.22.02.01a",
+									"name": "Get da Good Bitz (Action)",
+									"description": "[i]Action[/i]\nAt the end of your Movement phase, one or more [b]ORKS CORE[/b] units from your army can start to perform this action. Each unit from your army that starts to perform this action must be within range of a different objective marker you control that is not in either player's deployment zone. If a [b]LOOTAS[/b] or [b]GRETCHIN[/b] unit is performing the action it is completed at the end of your turn, otherwise, it is completed at the start of your next Command phase or at the end of the battle (whichever comes first). In any case, the action is only completed if the unit performing it is still within range of the same objective marker."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.22.03.01",
+							"name": "Da Biggest And Da Best",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round, score 2 victory points for each of the following achieved by your [b]ORKS WARLORD[/b] (to a maximum of 5 victory points per battle round):\n- An enemy [b]CHARACTER[/b], [b]MONSTER[/b] or [b]VEHICLE[/b] unit lost any wounds as the result of a melee attack made by your [b]WARLORD[/b] this battle round.\n- 5 or more enemy models were destroyed as the result of attacks made by your [b]WARLORD[/b] this battle round.\n- An enemy unit was destroyed as the result of an attack made by your [b]WARLORD[/b] this battle round.\n- Your [b]WARLORD[/b] is within range of an objective marker you control that is not within your deployment zone."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.22.04.01",
+							"name": "Green Tide",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn, score 1 victory point for each table quarter that contains 10 or more [b]ORKS[/b] models from your army (excluding models that are within 6\" of any other table quarter)."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "T'AU EMPIRE",
+			"name": "T'au Empire",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.23.01.01",
+							"name": "Decisive Action",
+							"description": "[i]Progressive Objective[/i]\nIf you selected the Mont'ka Tactical Philosophy at the start of the battle, then at the end of your turn in battle rounds one, two and three, score 4 victory points if you control half or more of the total number of objective markers on the battlefield.\n\nIf you selected the Kauyon Tactical Philosophy at the start of the battle, then at the end of your turn in battle rounds three, four and five, score 4 victory points if you control half or more of the total number of objective markers on the battlefield."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.23.02.01",
+							"name": "A Clean Victory",
+							"description": "[i]Progressive Objective[/i]\nIf you selected the Mont'ka Tactical Philosophy at the start of the battle, then at the end of battle rounds one, two and three you can score each of the following:\n- 1 victory point if one or more enemy units were destroyed that battle round.\n- 3 victory points if three or more enemy units were destroyed that battle round.\n\nIf you selected the Kauyon Tactical Philosophy at the start of the battle, then at the end of battle rounds three, four and five you can score each of the following:\n- 1 victory point if one or more enemy units were destroyed that battle round.\n- 3 victory points if three or more enemy units were destroyed that battle round."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.23.03.01",
+							"name": "Aero Targeting Relays",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, place an Aerospace Designation marker halfway along each battlefield edge. [b]T'AU EMPIRE INFANTRY[/b] units from your army can attempt the Install Targeting Relay action.\n\nAt the end of the battle, you score a number of victory points based on how many targeting relays were installed, as shown below:\n- 1 Relay - 2 victory points\n- 2 Relays - 6 victory points\n- 3 Relays - 9 victory points\n- 4 Relays - 15 victory points",
+							"actions": [
+								{
+									"id": "GT22.23.03.01a",
+									"name": "Install Targeting Relay (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]T'AU EMPIRE INFANTRY[/b] units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be within 6\" of a different Aerospace Designation marker that has not had a targeting relay installed at it (see below). If a [b]FIRE WARRIOR TEAM[/b] unit is performing the action, it is completed at the end of your turn, otherwise it is completed at the start of your next Command phase or at the end of the battle (whichever comes first). If completed, that Aerospace Designation marker is said to have had a targeting relay installed at it by your army."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "LEAGUES OF VOTANN",
+			"name": "Leagues of Votann",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.30.01.01",
+							"name": "Lay Claim",
+							"description": "[i]End Game Objective[/i]\nIf you selected this secondary objective, then during the Resolve Pre-battle Abilities step, your opponent must set up 3 objective markers anywhere on the ground level of the battlefield that is not within 6\" of their own deployment zone or any battlefield edge, and not within 9\" of each other. They cannot be set up on terrain features with the Unstable Position terrain trait. If it is impossible to set up an objective marker, it is not set up. Each represents Precious Resources, but does not count as an objective marker for any rules purposes other than for this secondary objective.\n\nAt the end of the battle, you score 5 victory points for each of your Precious Resources objective markers that you control."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.30.02.01",
+							"name": "Ancestors Are Watching",
+							"description": "[i]Progressive Objective[/i]\nAt the end of each phase, score 2 victory points if one or more enemy units that had 1 or more Judgment tokens was destroyed by a [b]VOTANN[/b] unit from your army during that phase. Score an additional 1 victory point for each of those enemy units that had 3 or more Judgment tokens when it was destroyed. At the end of the battle, reduce the number of victory points you have earned from this secondary objective by 1 (to a minimum of 0) for each unit that is on the battlefield (or that is embarked on a [b]TRANSPORT[/b] that is itself on the battlefield) that has 1 or more Judgment tokens."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.30.03.01",
+							"name": "Prospects of Wealth",
+							"description": "[i]Progressive and End Game Objective[/i]\nIf you select this objective, then [b]VOTANN INFANTRY[/b] and [b]VOTANN BIKER[/b] units from your army can attempt the Prospect action.\n\nEach time a unit from your army completes this action, you score 3 victory points. At the end of the battle, if you control one or more Rich Deposits markers, you score an additional 3 victory points.",
+							"actions": [
+								{
+									"id": "GT22.30.03.01a",
+									"name": "Prospect (Action)",
+									"description": "[i]Action[/i]\nOne [b]VOTANN INFANTRY[/b] or [b]VOTANN BIKER[/b] unit from your army can start to perform this action at the end of your Movement phase if it is in range of an objective marker that is not within your deployment zone and has not already been prospected by your army. A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b] units) in range of the same objective marker. The action is completed at the end of the turn. If completed, that objective marker is said to have been prospected by your army and you must roll one D6, adding 1 to the result if the unit that completed the action has the [b]SCANNER[/b] keyword: on a 6+, that objective marker is a Rich Deposits objective marker."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.30.04.01",
+							"name": "Grudge Match",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle, you must identify five units from your opponent's army, one of which must be the enemy's [b]WARLORD[/b], and make a note of them on your army roster. If your opponent's army has five or fewer units, then you instead identify all the units in your opponent's army.\n\nAt the end of the battle, for each of the identified units that was destroyed by a [b]VOTANN[/b] unit from your army, you score 1 victory point. If that unit had a points value of 150 or more, you score 1 additional victory point, and/or if that unit was destroyed by a melee attack, you score 1 additional victory point (for a maximum of 3 victory points per unit). A unit's points value includes the points of all weapons, other wargear and upgrades it has.\n\nAt the end of the battle, reduce the number of victory points you have earned from this secondary objective by 1 (to a minimum of 0) for each of the identified units that has not been destroyed. If a unit splits into several smaller units during a battle, all of those separate units (excluding [b]DRONE[/b] units) must be destroyed at the end of the battle for the unit to be counted as being destroyed for the purposes of this objective."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "DEATH GUARD",
+			"name": "Death Guard",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.24.01.01",
+							"name": "Despoiled Ground",
+							"description": "[i]End Game Objective[/i]\nAt the end of the battle, score 3 victory points for each of the following conditions you satisfy:\n- One or more [b]DEATH GUARD[/b] units from your army are wholly within your opponents deployment zone and one or more [b]DEATH GUARD[/b] units are wholly within your deployment zone.\n- One or more [b]DEATH GUARD[/b] units from your army are wholly within three different table quarters, and those units are all more than 6\" from any other table quarter.\n- One or more [b]DEATH GUARD[/b] units from your army are wholly within four different table quarters, and those units are all more than 6\" from any other table quarter.\n- You control half or more of the total number of objective markers on the battlefield and there are [b]DEATH GUARD[/b] units from your army within range of each of those objective markers.\n- Every objective marker on the battlefield is within Contagion range of one or more Contagion abilities that [b]DEATH GUARD[/b] units from your army have."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.24.02.01",
+							"name": "Fleeing Vectors",
+							"description": "[i]Progressive Objective[/i]\nAt the end of each player's turn, score 1 victory point if seven or more enemy models were destroyed by attacks made by [b]DEATH GUARD[/b] models from your army that turn. If one or more of those enemy models was destroyed by attacks made with plague weapons that turn, score 1 additional victory point.\n\nAt the end of each Morale phase, score 2 victory points if one or more enemy units failed a Morale test that phase. If any of those enemy units had one or more models destroyed by attacks made with plague weapons this turn, score 1 additional victory point."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.24.03.01",
+							"name": "Spread the Sickness",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, then [b]DEATH GUARD INFANTRY[/b] units in your army can attempt the Spread the Sickness action. Score 3 victory points each time an objective marker in your deployment zone is contaminated by your army, and score 4 victory points each time an objective marker not in your deployment zone is contaminated by your army.",
+							"actions": [
+								{
+									"id": "GT22.24.03.01a",
+									"name": "Spread the Sickness (Action)",
+									"description": "[i]Action[/i]\nOne [b]DEATH GUARD INFANTRY[/b] unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker you control that has not been contaminated by your army (see below). The action is completed at the end of your turn. If completed, if the unit that performed the action has the Objective Secured ability, that objective marker is said to have been contaminated by your army. Otherwise, roll one D6: on a 4+, that objective marker is said to have been contaminated by your army."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "THOUSAND SONS",
+			"name": "Thousand Sons",
+			"categories": [
+				{
+					"name": "Warpcraft",
+					"objectives": [
+						{
+							"id": "GT22.25.01.01",
+							"name": "Mutate Landscape",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then [b]THOUSAND SONS PSYKER[/b] units from your army can attempt the Mutate Landscape action. Score 3 victory points each time a unit from your army completes this psychic action.",
+							"actions": [
+								{
+									"id": "GT22.25.01.01a",
+									"name": "Mutate Landscape (Psychic Action)",
+									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]PSYKER[/b] unit from your army can start to perform this psychic action in your Psychic phase if it is within range of an objective marker you control that has not been mutated by your army. If this psychic action is completed, that objective marker is said to have been mutated by your army."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.25.02.01",
+							"name": "Wrath of Magnus",
+							"description": "[i]Progressive Objective[/i]\nYou can only select this objective if your opponent's army includes one or more [b]PSYKER[/b] units. At the end of the battle round, score 1 victory point for each of the following conditions that have been satisfied:\n- [b]THOUSAND SONS PSYKER[/b] units from your manifested at least one Witchfire power this battle round, and manifested more Witchfire powers than enemy units did this battle round.\n- [b]THOUSAND SONS PSYKER[/b] units from your manifested at least one Blessing power this battle round, and manifested more Blessing powers than enemy units did this battle round.\n- [b]THOUSAND SONS PSYKER[/b] units from your manifested at least one Malediction power this battle round, and manifested more Malediction powers than enemy units did this battle round.\n\nPsychic powers manifested by [b]MAGNUS THE RED[/b] do not count towards this secondary objective."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.25.03.01",
+							"name": "Burn Empires",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then [b]THOUSAND SONS INFANTRY[/b] units from your army can attempt the Burn Empires action. Score 4 victory points each time a unit from your army completes this action.",
+							"actions": [
+								{
+									"id": "GT22.25.03.01a",
+									"name": "Burn Empires (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]THOUSAND SONS INFANTRY[/b] units (excluding [b]CHARACTER[/b] units) from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be within range of a different objective marker you control that is not within your deployment zone and has not been burned by your army (see below). The action is completed at the start of your next Command phase or at the end of the battle (whichever comes first). If completed, that objective marker is said to have been burned by your army."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.25.04.01",
+							"name": "Sorcerous Prowess",
+							"description": "[i]End Game Objective[/i]\nAt the end of the battle:\n- Score 5 victory points for each enemy [b]PSYKER CHARACTER[/b] unit that was destroyed in the Psychic phase by a [b]THOUSAND SONS PSYKER[/b] unit from your army.\n- Score 3 victory points for each other enemy [b]PSYKER[/b] unit that was destroyed in the Psychic phase by a [b]THOUSAND SONS PSYKER[/b] unit from your army.\n- Score 2 victory points for each other enemy unit that was destroyed in the Psychic phase by a [b]THOUSAND SONS PSYKER[/b] unit from your army."
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "CHAOS SPACE MARINES",
+			"name": "Chaos Space Marines",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.26.01.01",
+							"name": "The Long War",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn:- Score 1 victory point for each enemy unit that was destroyed by a [b]TRAITORIS ASTARTES[/b] unit from your army this turn and was within range of an objective marker at the start of the turn.\n- Score 2 victory points if you control any objective markers that were controlled by your opponent at the start of this turn and a [b]TRAITORIS ASTARTES[/b] unit from your army is within range of any of those objective markers.\n\nYou can score a maximum of 3 victory points per turn from this secondary objective."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.26.02.01",
+							"name": "Rise to Glory",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round, score 2 victory points for each [b]CHARACTER[/b], [b]MONSTER[/b] or [b]VEHICLE[/b] model destroyed that battle round by a melee attack made by a [b]TRAITORIS ASTARTES CHARACTER[/b] model from your army. If such a destroyed model has a Wounds characteristic of 10-19, score 1 additional victory point for destroying that model, or 2 additional victory points for destroying that model if it had a Wounds characteristic of 20 or more or if it was the enemy [b]WARLORD[/b]. You can score a maximum of 5 victory points per battle round from this secondary objective.\n\nEach time a [b]CHARACTER[/b], [b]MONSTER[/b] or [b]VEHICLE[/b] model is destroyed by a melee attack made by a [b]TRAITORIS ASTARTES CHARACTER[/b] model from your army, roll 2D6. If the result is less than the Wounds characteristic of the destroyed model, gain 1 Command point at the end of the phase."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.26.03.01",
+							"name": "For the Dark Gods",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a For the Dark Gods tally; add 1 to that tally each time a unit from your army dedicates a table quarter to a Chaos God by performing the For the Dark Gods action. At the end of the battle, score 2 victory points if your For the Dark Gods tally is 1, score 5 victory points if that tally is 2, score 9 victory points if that tally is 3, score 14 victory points if that tally is 4.",
+							"actions": [
+								{
+									"id": "GT22.25.03.01a",
+									"name": "For the Dark Gods (Action)",
+									"description": "[i]Action[/i]\nOne [b]TRAITORIS ASTARTES INFANTRY[/b] or [b]TRAITORIS ASTARTES BIKER[/b] unit from your army can start to perform this action at the end of your Movement phase if it is wholly within a table quarter that has not been dedicated to a Chaos God by your army (see below) and it is within 3\" of the centre of that table quarter. If the unit performing this action had the Objective Secured ability when it started performing the action, the action is completed at the end of your turn; otherwise, the action is completed at the start of your next Command phase. In any case, the action is only completed if the unit performing it is still within 3\" of the centre of the same table quarter. If completed, choose either Khorne, Tzeentch, Nurgle or Slaanesh to dedicate that table quarter to. If this action is completed by a [b]KHORNE[/b], [b]TZEENTCH[/b], [b]NURGLE[/b] or [b]SLAANESH[/b] unit, that unit can only dedicate that table quarter to their patron deity. That table quarter is said to have been dedicated to that Chaos God by your army. The same table quarter cannot be dedicated to more than one Chaos God by your army.\n\nIf a table quarter has been dedicated to a Chaos God by your army, then while a [b]TRAITORIS ASTARTES[/b] unit from your army is wholly within that table quarter add 2 to the Leadership characteristic of that unit, unless that Chaos God is not their patron deity."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "CSM LEGIONS",
+			"name": "CSM Legions",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.27.01.01",
+							"name": "Sow the Seed (NL)",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, score 1 victory point each time one of the following happens:\n- An enemy unit fails a Morale test.\n- An enemy unit Falls Back.\n- An enemy unit fails an action.\n\nIn addition, each time an enemy unit is destroyed by a melee attack made by a [b]NIGHT LORDS[/b] model from your army, before removing the last model in that enemy unit from the battlefield, roll 2D6: if the result equals or exceeds the Leadership characteristic of that enemy model, score 1 victory point. A model can, if it is resurrected for any reason (i.e. if it was destroyed and subsequently returned to the battlefield), potentially contribute victory points due to this secondary objective multiple times (assuming it is destroyed and subsequently resurrected several times over, and your 2D6 result equals or exceeds that model's Leadership characteristic each time)."
+						},
+						{
+							"id": "GT22.27.01.02",
+							"name": "Adorn the Canvas (EC)",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round, score 1 victory point for each of the following conditions you satisfy:\n- You control more objective markers than your opponent.\n- More enemy units were destroyed by ranged attacks made by [b]EMPEROR'S CHILDREN[/b] units from your army this battle round than vice versa.\n- More enemy units were destroyed by melee attacks made by [b]EMPEROR'S CHILDREN[/b] units from your army this battle round than vice versa.\n- More enemy [b]CHARACTER[/b] units were destroyed by attacks made by [b]EMPEROR'S CHILDREN CHARACTER[/b] units from your army this battle round than vice versa.\n\nIf all four of the above apply at the end of a battle round, score 1 additional victory point at the end of that battle round (for a maximum of 5 victory points per battle round)."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.27.02.01",
+							"name": "Specimens (CoB)",
+							"description": "[i]Progressive and End Game Objective[/i]\nAt the end of the battle round:\n- Score 3 victory points if one or more [b]CHARACTER[/b] or [b]MONSTER[/b] units were destroyed by a melee attack made by a [b]CREATIONS OF BILE[/b] model from your army this battle round.\n- Score 2 victory points if one or more units (excluding [b]CHARACTER[/b], [b]MONSTER[/b] or [b]VEHICLE[/b] units) were destroyed by a melee attack made by a [b]CREATIONS OF BILE[/b] model from your army this battle round.\n\nAt the end of the battle, if one or more [b]ADEPTUS ASTARTES[/b], [b]SANCTIC ASTARTES[/b] or [b]HERETIC ASTARTES[/b] units were destroyed by a melee attack made by a [b]CREATIONS OF BILE[/b] model from your army during the battle, score 1 additional victory point."
+						},
+						{
+							"id": "GT22.27.02.01",
+							"name": "Skulls (WE)",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, select one [b]WORLD EATERS CHARACTER[/b] model from your army to issue the challenge, then select one [b]CHARACTER[/b] model from your opponent's army to accept the challenge. Score 5 victory points at the end of the battle for each of the following conditions that have been satisfied:\n- The model that accepted the challenge is destroyed.\n- The model that accepted the challenge was destroyed as the result of a melee attack.\n- The model that accepted the challenge was destroyed as the result of an attack made by the model that issued the challenge.\n\nIf the model that accepted the challenge is a Strategic Reserve or Reinforcement unit and is destroyed as a result of not arriving on the battlefield, all of the above conditions are considered to have been satisfied. If all three of these conditions are satisfied during the battle, you immediately gain 1 Command point."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.27.03.01",
+							"name": "Infiltrate & Subvert (AL)",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]ALPHA LEGION INFANTRY[/b] units from your army can attempt the Subvert action. Each time a unit from your army completes this action, score 3 victory points. Score 4 victory points instead if that unit completed this action wholly within your opponent's deployment zone.",
+							"actions": [
+								{
+									"id": "GT22.27.03.01a",
+									"name": "Subvert (Action)",
+									"description": "[i]Action[/i]\nOne [b]ALPHA LEGION INFANTRY[/b] unit (excluding [b]CHARACTER[/b] units) from your army can start to perform this action at the end of your Movement phase if it is wholly within 6\" of your opponent's deployment zone. The action is completed at the end of your next Command phase, provided the unit performing it is still wholly within 6\" of your opponent's deployment zone. If completed, if the unit that performed the action is in range of an objective marker, roll one D6 to see if that objective marker has been subverted. If that unit was a [b]CULTISTS[/b] unit, on a 5+ that objective marker is said to have been subverted by your army, otherwise on a 3+ that objective is said to have been subverted by your army. Enemy units can never control objective markers that have been subverted by your army, and can never perform actions while they are within range of any objective markers that have been subverted by your army."
+								}
+							]
+						},
+						{
+							"id": "GT22.27.03.02",
+							"name": "Demolition (IW)",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, your opponent must set up three objective markers anywhere on the battlefield that are on ground level, not within 9\" of each other, and not within 6\" of any battlefield edge. These objective markers cannot be set up on terrain features with the Unstable Position terrain trait, and no more than one of them can be set up within 6\" of your opponent's deployment zone. If it is impossible to set up an objective marker, it is not set up. Each represents a demolition site, but does not count as an objective marker for any rules purposes other than for this objective. [b]IRON WARRIORS INFANTRY[/b] units from your army can attempt the Total Demolition action.\n\nAt the end of the battle, score 4 victory points for each demolition site objective marker that was demolished by your army. Score an additional 3 victory points if a demolition site objective marker that was within 6\" if your opponent's deployment zone was demolished by your army.",
+							"actions": [
+								{
+									"id": "GT22.27.03.02a",
+									"name": "Total Demolition (Action)",
+									"description": "[i]Action[/i]\nOne [b]IRON WARRIORS INFANTRY[/b] unit (excluding [b]CHARACTER[/b] units) from your army can start to perform this action at the start of your Movement phase if it is within range of a demolition site objective marker and no enemy units (excluding [b]AIRCRAFT[/b] units) are within range of that objective marker. This action is completed at the end of the turn, provided the unit performing it is still within range of the same objective marker. If completed, that objective marker is said to have been demolished by your army and is removed from the battlefield."
+								}
+							]
+						},
+						{
+							"id": "GT22.27.03.03",
+							"name": "Despoil Dominions (BL)",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]BLACK LEGION INFANTRY[/b] and [b]BLACK LEGION BIKER[/b] units from your army can attempt the Despoil Dominions action. Each time a unit from your army completes this action, if the objective marker that was despoiled by that action was wholly within your deployment zone, score 1 victory point, otherwise score 4 victory points.",
+							"actions": [
+								{
+									"id": "GT22.27.03.03a",
+									"name": "Despoil Dominions (Action)",
+									"description": "[i]Action[/i]\nOne [b]BLACK LEGION INFANTRY[/b] or [b]BLACK LEGION BIKER[/b] unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker that has not already been despoiled by your army (see below). A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b] units) within range of the same Objective marker. The action is completed at the start of your next Command phase or at the end of the battle (whichever comes first), provided the unit performing it is still within range of the same objective marker. If completed, that objective marker is said to have been despoiled by your army, and until the end of the battle, each time an enemy unit starts to perform an action while it is within range of that despoiled objective marker roll one D6, on a 4+ that action immediately fails."
+								}
+							]
+						},
+						{
+							"id": "GT22.27.03.04",
+							"name": "Raid and Reave (WB)",
+							"description": "[i]Progressive and End Game Objective[/i]\nIf you select this objective, [b]RED CORSAIRS INFANTRY[/b] and [b]RED CORSAIRS BIKER[/b] units from your army can attempt the Raid and Reave action.\n\nEach time a unit from your army completes this action, if the objective marker that was raided as a result was wholly within your deployment zone score 1 victory point, if that objective marker was wholly within your opponent's deployment zone score 3 victory points, otherwise score 2 victory points.\n\nAt the end of the battle, score 1 victory point for each [b]RED CORSAIRS[/b] unit from your army that is carrying spoils of war (score 2 victory points instead if that unit, or a [b]TRANSPORT/b] model it is embarked within, is wholly within your deployment zone).",
+							"actions": [
+								{
+									"id": "GT22.27.03.04a",
+									"name": "Raid and Reave (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]RED CORSAIRS INFANTRY[/b] or [b]RED CORSAIRS BIKER[/b] unit from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be within range of a different objective marker that has not been raided by your army (see below). A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b] units) within range of the same Objective marker. The action is completed at the start of your next Command phase or at the end of the battle (whichever comes first), provided the unit performing it is still within range of the same objective marker. If completed, that objective marker is said to have been raided by your army and until the end of the battle, the unit that performed this action is said to be carrying spoils of war."
+								}
+							]
+						},
+						{
+							"id": "GT22.27.03.05",
+							"name": "Exalt the Dark Gods (WB)",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep an Exalt the Dark Gods tally; add 1 to that tally each time a [b]WORD BEARERS[/b] unit from your army completes the Exalt the Dark Gods action.\n\nAt the end of the battle score 2 victory points if your Exalt the Dark Gods tally is 1, score 5 victory points if that tally is 2, score 9 victory points if that tally is 3, score 15 victory points if that tally is 4 or more.",
+							"actions": [
+								{
+									"id": "GT22.27.03.05a",
+									"name": "Exalt the Dark Gods (Action)",
+									"description": "[i]Action[/i]\nOne [b]WORD BEARERS INFANTRY[/b] unit from your army can start to perform this action at the end of your Movement phase if it is wholly within 6\" of the centre of the battlefield. [b]WORD BEARERS PSYKER[/b] units can attempt to manifest psychic powers while performing this action without this action failing. If the unit performing this action is a [b]WORD BEARERS ICON[/b], [b]WORD BEARERS DARK APOSTLE[/b] or [b]WORD BEARERS MASTER OF POSSESSION[/b] unit, this action is completed at the end of your turn, otherwise, it is completed at the start of your next Command phase. In any case, the action is only completed if the unit performing it is still wholly within 6\" of the centre of the battlefield and no enemy units (excluding [b]AIRCRAFT[/b] units) are wholly within 6\" of the centre of the battlefield."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "CHAOS KNIGHTS",
+			"name": "Chaos Knights",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.28.01.01",
+							"name": "Ruthless Tyranny",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, at the end of your turn, you score victory points as follows (for a maximum of 4 victory points):\n- Score 2 victory points if you control half or more of the total number of objective markers on the battlefield and one or more [b]CHAOS KNIGHTS[/b] models from your army are within range of each of those objective markers.\n- Score 1 victory point if half or more of the total number of objective markers on the battlefield are within Dread range of one or more [b]CHAOS KNIGHTS[/b] models from your army.\n- Score 1 victory point if every objective marker on the battlefield is within Dread range of one or more [b]CHAOS KNIGHTS[/b] models from your army."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.28.02.01",
+							"name": "Path of Destruction",
+							"description": "[i]Progressive Objective[/i]\nScore 1 victory point at the end of the battle round for each of the following conditions that were satisfied during that battle round (for a maximum of 3 victory points):\n- One or more enemy units were destroyed by a [b]CHAOS KNIGHTS[/b] model from your army while that [b]CHAOS KNIGHTS[/b] model was wholly within your deployment zone.\n- One or more enemy units were destroyed by a [b]CHAOS KNIGHTS[/b] model from your army while that [b]CHAOS KNIGHTS[/b] model was more than 3\" away from either player's deployment zone.\n- One or more enemy units were destroyed by a [b]CHAOS KNIGHTS[/b] model from your army while that [b]CHAOS KNIGHTS[/b] model was wholly within your opponent's deployment zone."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "GT22.28.03.01",
+							"name": "A Fitting Challenge",
+							"description": "[i]Progressive and End Game Objective[/i]\nIf you select this objective, then before the battle, after you have selected deployment zones, you must identify which three units from your opponent's army have the highest points value, and make a note of them (if two or more units are tied, your opponent can choose between them). If your opponent's army has three or fewer units, then you instead identify all the units in your opponent's army. A unit's points cost includes the points of all weapons and wargear it is equipped with. If a unit splits into several smaller units during the battle, all of those separate units must be destroyed for the original unit to count as being destroyed for the purposes of this objective.\n\nAt the end of each battle round, you score a number of victory points for each identified unit that was destroyed during the battle by a [b]CHAOS KNIGHTS[/b] unit from your army (to a maximum of 6 victory points per battle round). The number of victory points scored depends on the battle round during which each unit was destroyed, as shown in the table below.\n\n- Battle round 1: 6VP\n- Battle round 2: 5VP\n- Battle round 3: 4VP\n- Battle round 4: 3VP\n- Battle round 5: 2VP\n\nAt the end of the battle, reduce the number of victory points you have earned from this secondary objective by 1 (to a minimum of 0) for each of the identified units that has not been destroyed. If a unit was destroyed, but was then resurrected or otherwise returned to the battlefield and subsequently destroyed again, then for the purposes of this secondary objective it was destroyed during the battle round in which it was last removed from the battlefield."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.28.04.01",
+							"name": "Storm of Darkness",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then [b]CHAOS KNIGHTS[/b] units from your army can attempt the Storm of Darkness action.\n\nScore 3 victory points each time a unit from your army completes the Storm of Darkness action.",
+							"actions": [
+								{
+									"id": "GT22.28.04.01a",
+									"name": "Storm of Darkness (Action)",
+									"description": "[i]Action[/i]\nOne [b]CHAOS KNIGHTS[/b] unit from your army can start to perform this action at the end of the Morale phase if it is in range of an objective marker that has not already been cursed by your army. A unit cannot start this action while there are any enemy units (excluding [b]AIRCRAFT[/b] units) in range of the same objective marker. The action is completed at the end of your next Psychic phase, provided the unit performing it is still within range of the same objective marker. If completed, that objective marker is said to have been cursed by your army, and until the end of the battle, whilst a non-[b]CHAOS[/b] unit is within 6\" of that objective marker, subtract 1 from the Leadership characteristic of models in that unit."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "CHAOS DAEMONS",
+			"name": "Chaos Daemons",
+			"categories": [
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "GT22.29.01.01",
+							"name": "Nourished by Terror",
+							"description": "[i]Progressive Objective[/i]\n- Each time an enemy model flees the battlefield, score 1 victory point.\n- Each time an enemy unit is destroyed by a [b]CHAOS DAEMONS[/b] units from your army (excluding [b]HERETIC ASTARTES[/b] units), before removing the last model in that destroyed unit from the battlefield roll 2D6. If the result equals, or exceeds, the Leadership characterstic of that enemy model, score 1 victory point. A unit can, if it is resurrected for any reason (i.e. if it was destroyed and subsequently returned to the battlefield), potentially contribute victory points due to this secondary objective multiple times (assuming it is destroyed and subsequently resurrected several times over, and your 2D6 result equals or exceeds that model's Leadership characteristic each time)."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "GT22.29.02.01",
+							"name": "Reality Rebels",
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn:\n- Score 1 victory point for each table quarter that has one or more [b]CHAOS DAEMONS[/b] units from your army (excluding [b]HERETIC ASTARTES[/b] units) wholly within it, provided your opponent does not have more units wholly within the same table quarter. For the purposes of this bullet point, exclude any units that are within 6\" of the centre of the battlefield.\n- Score 1 victory point if one or more [b]CHAOS DAEMONS[/b] units from your army (excluding [b]HERETIC ASTARTES[/b] units) are wholly within 6\" of the centre of the battlefield."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "GT22.29.03.01",
+							"name": "Despoilers of Reality",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then [b]CHAOS DAEMONS INFANTRY[/b] units from your army (excluding [b]HERETIC ASTARTES[/b] units) can attempt the Dark Ritual action. Score 4 victory points each time a unit from your army completes this action.",
+							"actions": [
+								{
+									"id": "GT22.29.03.01a",
+									"name": "Dark Ritual (Action)",
+									"description": "[i]Action[/i]\nOne or more [b]CHAOS DAEMONS INFANTRY[/b] units (excluding [b]HERETIC ASTARTES[/b] units) from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be within range of a different objective marker you control that is not within your deployment zone and has not been corrupted by your army (see below). The action is completed at the start of your next Command phase or at the end of the battle (whichever comes first). If completed, that objective marker is said to have been burned by your army."
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
