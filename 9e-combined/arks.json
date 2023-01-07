@@ -9,7 +9,7 @@
 		{
 			"name": "Tear Down Their Icons",
 			"primary": "Take and Hold",
-			"mission": "[b]DETONATION[/b]\n[b]End Game Objective[/b]\nAt the end of the battle, each player scores 4 victory points for each Primed Explosives objective marker that is within their opponent's territory (to a maximum of 15 victory points per player).\n\n[b]Prime Explosives (Action):[/b] One unit from your army can start to perform this action at the end of your Movement phase if it is wholly within your opponent's territory and it is more than 9\" away from any Primed Explosives objective markers (see below). If the unit performing this action has the Objective Secured ability (see the Warhammer 40,000 Core Book) or a similar rule, this action is completed at the end of your turn; otherwise, it is completed at the end of your next Command phase. If this action is successfully completed, set up 1 Primed Explosives objective marker on the battlefield that is wholly within your opponent's territory and wholly within 3\" of the unit that completed this action - this represents a cache of Primed Explosives, but does not count as an objective marker for any rules purposes other than for the Defuse Explosives action and the Detonation primary objective.\n\n[b]Defuse Explosives (Action):[/b]One unit from your army can start to perform this action at the end of your Movement phase if it is within range of a Primed Explosives objective marker within your own territory and no enemy units (excluding [b]AIRCRAFT[/b]) are within range of the same Primed Explosives objective marker. This action is completed at the end of your turn provided the unit attempting it is still within range of the same Primed Explosives objective marker. If this action is successfully completed, roll one D6 and add 3 to the result if the unit that performed this action has the Objective Secured ability or a similar rule: on a 4+, remove that Primed Explosives objective marker from the battlefield."
+			"mission": "[b]DETONATION[/b]\n[b]End Game Objective[/b]\nAt the end of the battle, each player scores 4 victory points for each Primed Explosives objective marker that is within their opponent's territory (to a maximum of 15 victory points per player).\n\n[b]Prime Explosives (Action):[/b] One unit from your army can start to perform this action at the end of your Movement phase if it is wholly within your opponent's territory and it is more than 9\" away from any Primed Explosives objective markers (see below). If the unit performing this action has the Objective Secured ability (see the Warhammer 40,000 Core Book) or a similar rule, this action is completed at the end of your turn; otherwise, it is completed at the end of your next Command phase. If this action is successfully completed, set up 1 Primed Explosives objective marker on the battlefield that is wholly within your opponent's territory and wholly within 3\" of the unit that completed this action - this represents a cache of Primed Explosives, but does not count as an objective marker for any rules purposes other than for the Defuse Explosives action and the Detonation primary objective.\n\n[b]Defuse Explosives (Action):[/b] One unit from your army can start to perform this action at the end of your Movement phase if it is within range of a Primed Explosives objective marker within your own territory and no enemy units (excluding [b]AIRCRAFT[/b]) are within range of the same Primed Explosives objective marker. This action is completed at the end of your turn provided the unit attempting it is still within range of the same Primed Explosives objective marker. If this action is successfully completed, roll one D6 and add 3 to the result if the unit that performed this action has the Objective Secured ability or a similar rule: on a 4+, remove that Primed Explosives objective marker from the battlefield."
 		},
 		{
 			"name": "Data Scry-Salvage",
@@ -107,7 +107,7 @@
 						{
 							"id": "AoO.02.01.02",
 							"name": "Behind Enemy Lines",
-							"description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of your turn if one unit from your army (excluding [b]AIRCRAFT[/b] units) is wholly within your opponent’s deployment zone. Score 4 victory points at the end of your turn instead if two or more units from your army (excluding [b]AIRCRAFT[/b] units) are wholly within your opponent’s deployment zone. In addition, if one or more of those units is a Troops unit, an [b]ARMIGER-CLASS[/b] unit or a [b]WAR DOG-CLASS[/b] unit, you gain 1 Command point at the end of the current battle round"
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of your turn if one unit from your army (excluding [b]AIRCRAFT[/b] units) is wholly within your opponent’s deployment zone. Score 4 victory points at the end of your turn instead if two or more units from your army (excluding [b]AIRCRAFT[/b] units) are wholly within your opponent’s deployment zone. In addition, if one or more of those units is a Troops unit, an [b]ARMIGER-CLASS[/b] unit or a [b]WAR DOG-CLASS[/b] unit, you gain 1 Command point at the end of the current battle round."
 						}
 					]
 				},
@@ -122,7 +122,7 @@
 						{
 							"id": "AoO.02.02.02",
 							"name": "Grind Them Down",
-							"description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of the battle round if more enemy units than friendly units were destroyed this battle round. \n if one or more enemy units were destroyed by Troops units, [b]ARMIGER-CLASS[/b] units or [b]WAR DOG-CLASS[/b] units from your army this battle round, you gain 1 Command point."
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of the battle round if more enemy units than friendly units were destroyed this battle round.\n\nIf one or more enemy units were destroyed by Troops units, [b]ARMIGER-CLASS[/b] units or [b]WAR DOG-CLASS[/b] units from your army this battle round, you gain 1 Command point."
 						}
 					]
 				},
@@ -143,13 +143,13 @@
 						},
 						{
 							"id": "AoO.02.03.02",
-							"name": "Retrieve Nephilim Data",
+							"name": "Retrieve Battlefield Data",
 							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep Retrieved Data tally. In addition, units in your army can perform the following action.\n\nAt the end of the battle, score 4 victory points if your Retrieved Data tally is 2, score 8 victory points if your tally is 3, or score 12 victory points if your tally is 4.",
 							"actions": [
 								{
 									"id": "AoO.02.03.03a",
 									"name": "Retrieve Data (Action)",
-									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] or [b]BIKER[/b] unit can start to perform this action at the end of your Movement phase if it is wholly within a table quarter that has not had a servo-skull retrieved by your army (see below) and it is more than 6” away from any other table quarter. This action is completed at the end of your turn provided the unit attempting it is still within the same table quarter. If this action is successfully completed, roll one D6, subtracting 1 from the result if the unit that completed the action has the Troops battlefield role; if the result is less than or equal to the number of models currently in that unit, that table quarter is said to have had a servo-skull retrieved by your army and you add 1 to your Retrieved Data tally."
+									"description": "[i]Action[/i]\nOne [b]INFANTRY[/b] or [b]BIKER[/b] unit can start to perform this action at the end of your Movement phase if it is wholly within a table quarter that has not had a servo-skull retrieved by your army (see below) and it is more than 6\" away from any other table quarter. This action is completed at the end of your turn provided the unit attempting it is still within the same table quarter. If this action is successfully completed, roll one D6, subtracting 1 from the result if the unit that completed the action has the Troops battlefield role; if the result is less than or equal to the number of models currently in that unit, that table quarter is said to have had a servo-skull retrieved by your army and you add 1 to your Retrieved Data tally."
 								}
 							]
 						}
@@ -161,12 +161,12 @@
 						{
 							"id": "AoO.02.04.01",
 							"name": "Assassination",
-							"description": "[i]Progressive and End Game Objective[/i]/nAt the end of the battle round, if any enemy [b]CHARACTER[/b] units were destroyed as a result of an attack made by a Troops unit, an [b]ARMIGER-CLASS[/b] unit or a [b]WAR DOG-CLASS[/b] unit from your army this battle round, you gain 1 Command point. \nScore 3 victory points at the end of the battle for each enemy [b]CHARACTER[/b] unit that is destroyed. At the end of the battle, if the enemy [b]WARLORD[/b] is destroyed, score 1 additional victory point."
+							"description": "[i]Progressive and End Game Objective[/i]\nAt the end of the battle round, if any enemy [b]CHARACTER[/b] units were destroyed as a result of an attack made by a Troops unit, an [b]ARMIGER-CLASS[/b] unit or a [b]WAR DOG-CLASS[/b] unit from your army this battle round, you gain 1 Command point.\n\nScore 3 victory points at the end of the battle for each enemy [b]CHARACTER[/b] unit that is destroyed. At the end of the battle, if the enemy [b]WARLORD[/b] is destroyed, score 1 additional victory point."
 						},
 						{
 							"id": "AoO.02.04.02",
-							"name": "Bring it Down",
-							"description": "[i]End Game Objective[/i]\nAt the end of the battle, score victory points for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model that is destroyed, as follows:\n- Score 1 victory point for each of those destroyed models with a Wounds characteristic of 9 or less\n- Score 2 victory points for each of those destroyed models with a Wounds characteristic of 10-14\n- Score 3 victory points for each of those destroyed models with a Wounds characteristic of 15-19\n- Score 4 victory points for each of those destroyed models with a Wounds characteristic of 20 or more"
+							"name": "Bring It Down",
+							"description": "[i]End Game Objective[/i]\nAt the end of the battle, score victory points for each enemy [b]MONSTER[/b] or [b]VEHICLE[/b] model that is destroyed, as follows:\n- Score 1 victory point for each of those destroyed models with a Wounds characteristic of 9 or less\n- Score 2 victory points for each of those destroyed models with a Wounds characteristic of 10-14\n- Score 3 victory points for each of those destroyed models with a Wounds characteristic of 15-19\n- Score 4 victory points for each of those destroyed models with a Wounds characteristic of 20 or more."
 						}
 					]
 				},
@@ -186,19 +186,19 @@
 								{
 									"id": "AoO.02.05.02a",
 									"name": "Warp Ritual (Psychic Action)",
-									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 6” of the centre of the battlefield."
+									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 6\" of the centre of the battlefield."
 								}
 							]
 						},
 						{
 							"id": "AoO.02.05.03",
 							"name": "Psychic Interrogation",
-							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time you successfully complete the following psychic action. In addition, if the result of the Psychic test is equal to or greater than the Leadership characteristic of any enemy [b]CHARACTER[/b] models within 24\" of the [b]PSYKER[/b] unit that completed this psychic action, you gain 1 Command Point at the end of the phase.",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time you successfully complete the following psychic action. In addition, if the result of the Psychic test is equal to or greater than the Leadership characteristic of any enemy [b]CHARACTER[/b] models within 24\" of the [b]PSYKER[/b] unit that completed this psychic action, you gain 1 Command point at the end of the phase.",
 							"actions": [
 								{
 									"id": "AoO.02.05.04a",
 									"name": "Psychic Interrogation (Psychic Action)",
-									"description": "[i]Psychic Action - Warp Charge 4[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 24” of and visible to any enemy [b]CHARACTER[/b] units."
+									"description": "[i]Psychic Action - Warp Charge 5[/i]\nOne [b]PSYKER CHARACTER[/b] unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 24\" of and visible to any enemy [b]CHARACTER[/b] units."
 								}
 							]
 						}
@@ -1275,7 +1275,7 @@
 						{
 							"id": "AoO.28.01.01",
 							"name": "Ruthless Tyranny",
-							"description": "[i]Progressive Objective[/i]\n At the end of your turn:\n- Score 2 victory points if you control half or more of the total number of objective markers on the battlefield and one or more [b]CHAOS KNIGHTS[/b] models from your army are within range of each of those objective markers.\n- Score 1 victory point if half or more of the total number of objective markers on the battlefield are within Dread range of one or more [b]CHAOS KNIGHTS[/b] models from your army.\n- Score 2 victory point if every objective marker on the battlefield is within Dread range of one or more [b]CHAOS KNIGHTS[/b] models from your army."
+							"description": "[i]Progressive Objective[/i]\nAt the end of your turn:\n- Score 2 victory points if you control half or more of the total number of objective markers on the battlefield and one or more [b]CHAOS KNIGHTS[/b] models from your army are within range of each of those objective markers.\n- Score 1 victory point if half or more of the total number of objective markers on the battlefield are within Dread range of one or more [b]CHAOS KNIGHTS[/b] models from your army.\n- Score 2 victory point if every objective marker on the battlefield is within Dread range of one or more [b]CHAOS KNIGHTS[/b] models from your army."
 						}
 					]
 				},
