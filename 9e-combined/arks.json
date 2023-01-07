@@ -1190,11 +1190,6 @@
 							"id": "AoO.27.02.01",
 							"name": "Specimens (CoB)",
 							"description": "[i]Progressive and End Game Objective[/i]\nAt the end of the battle round:\n- Score 3 victory points if one or more [b]CHARACTER[/b] or [b]MONSTER[/b] units were destroyed by a melee attack made by a [b]CREATIONS OF BILE[/b] model from your army this battle round.\n- Score 2 victory points if one or more units (excluding [b]CHARACTER[/b], [b]MONSTER[/b] or [b]VEHICLE[/b] units) were destroyed by a melee attack made by a [b]CREATIONS OF BILE[/b] model from your army this battle round.\n\nAt the end of the battle, if one or more [b]ADEPTUS ASTARTES[/b], [b]SANCTIC ASTARTES[/b] or [b]HERETIC ASTARTES[/b] units were destroyed by a melee attack made by a [b]CREATIONS OF BILE[/b] model from your army during the battle, score 1 additional victory point."
-						},
-						{
-							"id": "AoO.27.02.01",
-							"name": "Skulls (WE)",
-							"description": "[i]End Game Objective[/i]\nIf you select this objective, during the Resolve Pre-battle Abilities step of the mission, select one [b]WORLD EATERS CHARACTER[/b] model from your army to issue the challenge, then select one [b]CHARACTER[/b] model from your opponent's army to accept the challenge. Score 5 victory points at the end of the battle for each of the following conditions that have been satisfied:\n- The model that accepted the challenge is destroyed.\n- The model that accepted the challenge was destroyed as the result of a melee attack.\n- The model that accepted the challenge was destroyed as the result of an attack made by the model that issued the challenge.\n\nIf the model that accepted the challenge is a Strategic Reserve or Reinforcement unit and is destroyed as a result of not arriving on the battlefield, all of the above conditions are considered to have been satisfied. If all three of these conditions are satisfied during the battle, you immediately gain 1 Command point."
 						}
 					]
 				},
@@ -1346,6 +1341,42 @@
 									"description": "[i]Action[/i]\nOne or more [b]LEGIONES DAEMONICA INFANTRY[/b] units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be within range of a different objective marker you control that is not within your deployment zone and has not been corrupted by your army (see below). The action is completed at the start of your next Command phase or at the end of the battle (whichever comes first). If completed, that objective marker is said to have been corrupted by your army."
 								}
 							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"faction": "WORLD EATERS",
+			"name": "World Eaters",
+			"categories": [
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "AoO.30.01.01",
+							"name": "Pile The Skulls",
+							"description": "[i]Progressive Objective[/i]\nAt the end of each battle round, before purchasing any Blessings of the Blood God (see Codex: World Eaters), you can discard 1, 2 or 3 Blood Tithe points. Score 2VP for each Blood Tithe Point discarded, to a maximum of 5VP per battle round."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "AoO.30.02.01",
+							"name": "The Blood God's Due",
+							"description": "[i]Progressive Objective[/i]\nAt the end of each player's turn, score 1VP for each objective marker on the battlefield that was Drowned in Blood that turn. For an objective marker to be Drowned in Blood, one or more units (excluding [b]VEHICLE[/b] units) that started that turn within range of that objective marker must have been destroyed that turn."
+						}
+					]
+				},
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "AoO.30.03.01",
+							"name": "Blood for the Blood God",
+							"description": "[i]Progressive Objective[/i]\nAt the end of the battle round, provided no [b]WORLD EATERS[/b] units from your army have Fallen Back this battle round, score 2VP for each enemy [b]MONSTER[/b], [b]CHARACTER[/b] or [b]VEHICLE[/b] unit that was destroyed by melee attacks made by [b]WORLD EATERS[/b] models from your army this battle round and score 1VP for each other enemy unit that was destroyed by melee attacks made by [b]WORLD EATERS[/b] models from your army this battle round (to a maximum of 4VP per battle round)."
 						}
 					]
 				}
