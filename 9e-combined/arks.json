@@ -919,12 +919,12 @@
 						{
 							"id": "AoO.22.02.01",
 							"name": "Get da Good Bitz",
-							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]ORKS CORE[/b] units from your army can attempt the Get da Good Bitz action.\n\nScore 4 victory points each time a unit from your army completes this action (to a maximum of 5 victory points per battle round).",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, [b]ORKS CORE[/b] units from your army can attempt the Get da Good Bitz action.\n\nScore 4 victory points each time a unit from your army completes this action (to a maximum of 6 victory points per battle round).",
 							"actions": [
 								{
 									"id": "AoO.22.02.01a",
 									"name": "Get da Good Bitz (Action)",
-									"description": "[i]Action[/i]\nAt the end of your Movement phase, one or more [b]ORKS CORE[/b] units from your army can start to perform this action. Each unit from your army that starts to perform this action must be within range of a different objective marker you control that is not in either player's deployment zone. If a [b]LOOTAS[/b] or [b]GRETCHIN[/b] unit is performing the action it is completed at the end of your turn, otherwise, it is completed at the start of your next Command phase or at the end of the battle (whichever comes first). In any case, the action is only completed if the unit performing it is still within range of the same objective marker."
+									"description": "[i]Action[/i]\nAt the end of your Movement phase, one or more [b]ORKS CORE[/b] units from your army can start to perform this action. Each unit from your army that starts to perform this action must be within range of a different objective marker you control that is not in either player's deployment zone. If a [b]LOOTAS[/b] or [b]GRETCHIN[/b] unit is performing the action it is completed at the end of your turn; otherwise, it is completed at the start of your next Command phase or at the end of the battle (whichever comes first). In any case, the action is only completed if the unit performing it is still within range of the same objective marker."
 								}
 							]
 						}
