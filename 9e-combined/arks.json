@@ -570,16 +570,6 @@
 					]
 				},
 				{
-					"name": "Purge the Enemy",
-					"objectives": [
-						{
-							"id": "AoO.14.03.01",
-							"name": "Duel of Honour",
-							"description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle, after you have deployed armies, you must identify your opponent's [b]WARLORD[/b], and the two units from your opponent's army that have the highest points value (excluding your opponent's [b]WARLORD[/b]), and make a note of them on your army roster (if two or more units are tied, your opponent can choose between them). If your opponent's army has three or fewer units, then you instead identify all the units in your opponent's army. A unit's points cost includes the points of all weapons and wargear it is equipped with.\n\nAt the end of the battle, for each identified enemy unit that is destroyed, you score a number of victory points if that unit was destroyed during the battle by an [b]IMPERIAL KNIGHTS[/b] unit from your army. The number of victory points scored depends on how the enemy unit was destroyed.\n\n- [b]Honour to the King - 5VP:[/b] The unit was destroyed by a melee attack made by your [b]WARLORD[/b].\n- [b]Personal Combat - 4VP:[/b] The unit was destroyed by a melee attack made by any other [b]IMPERIAL KNIGHTS[/b] model from your army.\n- [b]Cowardly Cur - 4VP:[/b] The unit was destroyed because it was not on the battlefield at the end of the battle and so counted as destroyed (note, this does not apply if the enemy unit is embarked in a [b]TRANSPORT[/b] that is itself on the battlefield at the end of the battle).\n- [b]Inglorious Demise - 3VP:[/b] The enemy unit was destroyed by any other means.\n\nAt the end of any battle round in which Honour to the King or Personal Combat was achieved, you gain 1 Honour point.\n\nAt the end of the battle, if the enemy's [b]WARLORD[/b] has been destroyed, you gain 1 additional victory point, but you must reduce the number of victory points you have earned from this secondary objective by 1 (to a minimum of 0) for each of the identified units that has not been destroyed.\n\nFor example, if the enemy [b]WARLORD[/b] was destroyed by a melee attack made by your [b]WARLORD[/b], one of the other identified units was destroyed by a ranged attack made by a model in your army, and the third identified unit was still on the battlefield at the end of the battle, you would score 8 victory points from this secondary objective."
-						}
-					]
-				},
-				{
 					"name": "Shadow Operations",
 					"objectives": [
 						{
